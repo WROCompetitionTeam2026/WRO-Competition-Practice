@@ -1,7 +1,7 @@
-# SPIKE Prime / update groups
+# SPIKE Prime / actualizaciones
 
-[April](ACTU-01-April/README.md) · [May](ACTU-02-May/README.md) · [August](ACTU-03-August/README.md) · [September](ACTU-04-September/README.md)
+[Abril](ACTU-01-April/README.md) · [Mayo](ACTU-02-May/README.md) · [Agosto](ACTU-03-August/README.md) · [Septiembre](ACTU-04-September/README.md)
 
-Use [the software guide](../README.md) for the recent #6/#7/#8 comparison, connection details, source export formats and upload instructions.
+En [la galería de programación](../README.md) están las capturas recientes #6/#7/#8 y las explicaciones de sus diferencias. Los proyectos editables quedan localmente; aquí se publican sus imágenes.
 
-Original filenames and duplicate-source locations are recorded in [the import manifest](../../Docs/import-manifest.json).
+El [inventario de archivos](../../Docs/import-manifest.json) conserva la relación con los nombres y las carpetas de origen.

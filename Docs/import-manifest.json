@@ -1,968 +1,1129 @@
 [
   {
     "source": "Codigo/Abril/Abril (#1)/abril (#1).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-01-April/Version-01/program.llsp3",
+    "destination": null,
     "sha256": "9bf5aef8647e01e5af763bbc2441dc24383359bce568f8e10cb70c052019b910",
-    "bytes": 29558
+    "bytes": 29558,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Abril/Abril (#1)/Abril (#1).png",
     "destination": "Code/SPIKE Prime/ACTU-01-April/Version-01/code-01.png",
     "sha256": "08712617e0a5f8ebc062d048fa75297d4756e8d3d8e2f92c027567e08b73d1cc",
-    "bytes": 182800
+    "bytes": 182800,
+    "publication": "published"
   },
   {
     "source": "Codigo/Abril/Abril (#2)/abril 2.0 (#2).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-01-April/Version-02/program.llsp3",
+    "destination": null,
     "sha256": "74f15a21ae92fe85814b66ed389e2cee823dec8d94a805c1b9f3356d46fe42f2",
-    "bytes": 29109
+    "bytes": 29109,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Abril/Abril (#2)/abril 2.0 (#2).png",
     "destination": "Code/SPIKE Prime/ACTU-01-April/Version-02/code-01.png",
     "sha256": "1e3d9c9e81492fb15c53b28b553e0e66d4b94ccb1dc5b234b6a2ec94323b171e",
-    "bytes": 167250
+    "bytes": 167250,
+    "publication": "published"
   },
   {
     "source": "Codigo/Mayo/WRO, Mayo (#1)/Robot-360-Clockwise - Copy (#1).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-02-May/Version-01/program.llsp3",
+    "destination": null,
     "sha256": "14de0a95e2e4f8292942b7c8fb59d692c9f122e1ae1aef5030fa4176eadce92c",
-    "bytes": 1735996
+    "bytes": 1735996,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Mayo/WRO, Mayo (#1)/Codigo Mayo (#1).png",
     "destination": "Code/SPIKE Prime/ACTU-02-May/Version-01/code-01.png",
     "sha256": "812b5beb36202cf257a15ff3fca64d9606e921c81bd547898021983a80c4ea42",
-    "bytes": 197969
+    "bytes": 197969,
+    "publication": "published"
   },
   {
     "source": "Codigo/Mayo/WRO, Mayo (#2)/Robot-360-Clockwise (#2).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-02-May/Version-02/program.llsp3",
+    "destination": null,
     "sha256": "03dc3f6109019af619e4e279e56c23ee483eb89405809ec9f893ebba6b2b8a9b",
-    "bytes": 1735956
+    "bytes": 1735956,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Mayo/WRO, Mayo (#2)/Codigo Mayo  (#2).png",
     "destination": "Code/SPIKE Prime/ACTU-02-May/Version-02/code-01.png",
     "sha256": "591c11060b7e9e964a15da9585b61de5ce28e556f69399fbfb282d46f8e95aa1",
-    "bytes": 168384
+    "bytes": 168384,
+    "publication": "published"
   },
   {
     "source": "Codigo/Mayo/WRO, Mayo (#3)/ROBOT-CountrrPARK- Copy (#3).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-02-May/Version-03/program.llsp3",
+    "destination": null,
     "sha256": "254c16b3a56b7aefe43a848cdd05a4e6d8f8502f7fc4dd5396ea649c8f8f369d",
-    "bytes": 1741553
+    "bytes": 1741553,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Mayo/WRO, Mayo (#3)/Codigo Mayo (1 de 2) (#3).png",
     "destination": "Code/SPIKE Prime/ACTU-02-May/Version-03/code-01.png",
     "sha256": "6aaacc91098c64b7679b0527a5d2aef68a83a0bcd3863ef7d7284dfe861f43b5",
-    "bytes": 216384
+    "bytes": 216384,
+    "publication": "published"
   },
   {
     "source": "Codigo/Mayo/WRO, Mayo (#3)/Codigo Mayo (2 de 2) (#3).png",
     "destination": "Code/SPIKE Prime/ACTU-02-May/Version-03/code-02.png",
     "sha256": "6bf79e3b9ea66f7295a06a23d549ae65213bc129f08ed988b56853a0742013f6",
-    "bytes": 147149
+    "bytes": 147149,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#1)/WRO, Agosto/WRO-Revamp-2026-1.llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-03-August/Version-01/WRO-Revamp-2026.llsp3",
+    "destination": null,
     "sha256": "1238f0e4a243b204d94cc1fce65107535eda7232b9324b008a5650b4c1f2a4b2",
-    "bytes": 2738
+    "bytes": 2738,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#1)/WRO, Agosto/WRO, agosto (1 de 11).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-01/code-01.png",
     "sha256": "056b6335ff2ebf87153704b57010b59534f305e34a7cf1f8182531fcebd3685d",
-    "bytes": 29255
+    "bytes": 29255,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#1)/WRO, Agosto/WRO, agosto (10 de 11).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-01/code-02.png",
     "sha256": "1a4729e99e306020cdcbf1949a0c60d20747ab41607748df947ef393450b61e4",
-    "bytes": 44455
+    "bytes": 44455,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#1)/WRO, Agosto/WRO, Agosto (11 de 11).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-01/code-03.png",
     "sha256": "f80eb0d71bfe7e572d096dcf7954f6b267af1df63b4075926d5cbc371935547f",
-    "bytes": 5349
+    "bytes": 5349,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#1)/WRO, Agosto/WRO, Agosto (3 de 11).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-01/code-04.png",
     "sha256": "b231a4df260b9a367e3a8e9eb4f1960ac1105c3378424df67fceeb0f9898b2b9",
-    "bytes": 27997
+    "bytes": 27997,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#1)/WRO, Agosto/WRO, Agosto (4 de 11).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-01/code-05.png",
     "sha256": "a4d3d2fcfc54653dec8b545f3e228e3bda50b55292624382a911f09ac73120be",
-    "bytes": 32284
+    "bytes": 32284,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#1)/WRO, Agosto/WRO, Agosto (5 de 11).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-01/code-06.png",
     "sha256": "d1b40ef25df30044954a16545fbd821333482e96673dc4a1eb9518f5cb844ddf",
-    "bytes": 44451
+    "bytes": 44451,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#1)/WRO, Agosto/WRO, Agosto (6 de 11).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-01/code-07.png",
     "sha256": "abf1d19444e18ba42a91583fdfc9f5dc04077c5b7aac0e532d91562bb748d542",
-    "bytes": 38780
+    "bytes": 38780,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#1)/WRO, Agosto/WRO, Agosto (7 de 11).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-01/code-08.png",
     "sha256": "e2071438fd4f8032be55406689734c5d63cbce8104fe701cd15814693ed24683",
-    "bytes": 40561
+    "bytes": 40561,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#1)/WRO, Agosto/WRO, Agosto (8 de 11).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-01/code-09.png",
     "sha256": "0dfac791ab92ce1ac75a4d1eeb894aabc910a703ea1605aabb10c9ba198486e5",
-    "bytes": 37580
+    "bytes": 37580,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#1)/WRO, Agosto/WRO, Agosto (9 de 11).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-01/code-10.png",
     "sha256": "9e455acf1dd29297da8a9443ef65918857b8a7f5d97665fa2419f0c40ef8edd8",
-    "bytes": 35578
+    "bytes": 35578,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#1)/WRO, Agosto/WRO. Agosto (2 de 11).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-01/code-11.png",
     "sha256": "fcc88af997dfaa4cdc86a31cfc8c05805da5d3f09a8cc925910c13215b3d36ad",
-    "bytes": 29411
+    "bytes": 29411,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#2)/Project 3.llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-03-August/Version-02/program.llsp3",
+    "destination": null,
     "sha256": "c812beb6be65117d72377a5f4645b2493b9ff6ab60bd365e9b1d882a17da7f84",
-    "bytes": 31004
+    "bytes": 31004,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#2)/project 3 (#1).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-02/code-01.png",
     "sha256": "f4f051d7ca07d1565498b832fbb28eeb2300090e28a8643b107f699bf21287b9",
-    "bytes": 177726
+    "bytes": 177726,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#3)/Project 3 improved-1.llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-03-August/Version-03/program.llsp3",
+    "destination": null,
     "sha256": "1a495b48f90ce554668313112181f5061a15962fb5ebfc55f8535fcb787ca4f4",
-    "bytes": 31864
+    "bytes": 31864,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#3)/project 3 (#2).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-03/code-01.png",
     "sha256": "73c60e6dfcdd8b0cffc31a595989f1ee9063a71fd964264f6ed96ee5e08c0ac8",
-    "bytes": 160194
+    "bytes": 160194,
+    "publication": "published"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#4)/Project 3 improved-4.llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-03-August/Version-04/program.llsp3",
+    "destination": null,
     "sha256": "fe7bdccb03a4b5e1f7b960a8c305cf8ca579c5002ccc79d6313a321733edab51",
-    "bytes": 32094
+    "bytes": 32094,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Agosto/WRO, Agosto (#4)/project 3 (#3).png",
     "destination": "Code/SPIKE Prime/ACTU-03-August/Version-04/code-01.png",
     "sha256": "f89f18c2ab5317c7ad37dda44cfcd66a61bc5c16f9b8b5e7b4faef302aede586",
-    "bytes": 181015
+    "bytes": 181015,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#1)/Codigo (#1).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-04-September/Version-01/program.llsp3",
+    "destination": null,
     "sha256": "e26df195a458a7bca224da1ea826ffd86732308d81b348e9f1fcc81100e0b4bd",
-    "bytes": 31668
+    "bytes": 31668,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#1)/codigo (#1).png",
     "destination": "Code/SPIKE Prime/ACTU-04-September/Version-01/code-01.png",
     "sha256": "8fc7ac44944d52e60e92ee7788b4006b34b3e70af7b65cdd08ec44f85b9b1a46",
-    "bytes": 135291
+    "bytes": 135291,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#2)/anti-clock (#2).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-04-September/Version-02/program.llsp3",
+    "destination": null,
     "sha256": "810292728f3159fe1b1e05013b72e9dc7f82a1a1248675c69849145f19068d5b",
-    "bytes": 30900
+    "bytes": 30900,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#2)/anti-clock (#2).png",
     "destination": "Code/SPIKE Prime/ACTU-04-September/Version-02/code-01.png",
     "sha256": "07ad0795f6ab71fce4bd113d0ac8820792ed36b2fa4a67969165ff0e3640b68d",
-    "bytes": 138880
+    "bytes": 138880,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#3)/funciona yay (#3).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-04-September/Version-03/program.llsp3",
+    "destination": null,
     "sha256": "9b6cf027d6a9956ad2840a22f3178437107fe1b4b185eb420e7a10236362fe60",
-    "bytes": 32415
+    "bytes": 32415,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#3)/funciona yay (#3).png",
     "destination": "Code/SPIKE Prime/ACTU-04-September/Version-03/code-01.png",
     "sha256": "c762b9d44894164106587adeabb20ae33f1822a34ca1a1d31b1874d7be3bcdca",
-    "bytes": 145303
+    "bytes": 145303,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#3)/funciona yay - ajuste minimo.llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-04-September/Version-03/minimal-adjustment.llsp3",
+    "destination": null,
     "sha256": "dcc31bb4ed87954d91a2cd7eb959a47527715c0b4ed0c289b7c8b7c4a82ea673",
-    "bytes": 36277
+    "bytes": 36277,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#3)/funciona yay (#3).png",
     "destination": "Code/SPIKE Prime/ACTU-04-September/Version-03/code-01.png",
     "sha256": "c762b9d44894164106587adeabb20ae33f1822a34ca1a1d31b1874d7be3bcdca",
-    "bytes": 145303
+    "bytes": 145303,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#3)/funciona yay - giros 90 sin acumular.llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-04-September/Version-03/non-accumulating-90-degree-turns.llsp3",
+    "destination": null,
     "sha256": "cde99ee50b14f83ae9cd02a56aa2dd6acd664431f8f1b7952043fdd59c07b940",
-    "bytes": 35504
+    "bytes": 35504,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#3)/funciona yay (#3).png",
     "destination": "Code/SPIKE Prime/ACTU-04-September/Version-03/code-01.png",
     "sha256": "c762b9d44894164106587adeabb20ae33f1822a34ca1a1d31b1874d7be3bcdca",
-    "bytes": 145303
+    "bytes": 145303,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#3)/funciona yay - original sin bucle.llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-04-September/Version-03/original-without-loop.llsp3",
+    "destination": null,
     "sha256": "8b7c036cc2c72708b5958f86737083c3e7323780b4f2b77932e4955442716426",
-    "bytes": 32747
+    "bytes": 32747,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#3)/funciona yay (#3).png",
     "destination": "Code/SPIKE Prime/ACTU-04-September/Version-03/code-01.png",
     "sha256": "c762b9d44894164106587adeabb20ae33f1822a34ca1a1d31b1874d7be3bcdca",
-    "bytes": 145303
+    "bytes": 145303,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#4)/funciona yay - backup (#4).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-04-September/Version-04/program.llsp3",
+    "destination": null,
     "sha256": "2793a8622ea54d1b287ae72eef26b1d6f511044e33d5025b540d0acb1e71b781",
-    "bytes": 35584
+    "bytes": 35584,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#4)/funciona yay (#4).png",
     "destination": "Code/SPIKE Prime/ACTU-04-September/Version-04/code-01.png",
     "sha256": "b4e212047e704643427ad9e33f73140cf908d083f358ecc1f68b9ab13ce17cb0",
-    "bytes": 182942
+    "bytes": 182942,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#5)/funciona yay (#5).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-04-September/Version-05/program.llsp3",
+    "destination": null,
     "sha256": "f61fcabdcc180acd85ef8dec07048a36e589cb4837b4432aeb1ee2c492887696",
-    "bytes": 36015
+    "bytes": 36015,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#5)/funciona yay (#5).png",
     "destination": "Code/SPIKE Prime/ACTU-04-September/Version-05/code-01.png",
     "sha256": "bc7b6affa7a88849027faa2d1ad44a86acfb6a88d42454d5c52a8616ad2511f4",
-    "bytes": 206033
+    "bytes": 206033,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#6)/Wro, Septiembre (#6).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-04-September/Version-06/program.llsp3",
+    "destination": null,
     "sha256": "1f135851f63ff4fb170ff9a3d94dc0685b41b66be5817a80a22c5002e564dbf8",
-    "bytes": 32390
+    "bytes": 32390,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#6)/Wro, Septiembre (#6).png",
     "destination": "Code/SPIKE Prime/ACTU-04-September/Version-06/code-01.png",
     "sha256": "8565aeb92b5d425ed789337a7147b11782393e1103b97a7a1542b376c9e05ea6",
-    "bytes": 178530
+    "bytes": 178530,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#7)/Wro, Septiembre (#7).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-04-September/Version-07/program.llsp3",
+    "destination": null,
     "sha256": "61970d598c18d1126e7979975b9ceb80819b5a8afa017d59920780994285421d",
-    "bytes": 35638
+    "bytes": 35638,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#7)/Wro, Septiembre (#7).png",
     "destination": "Code/SPIKE Prime/ACTU-04-September/Version-07/code-01.png",
     "sha256": "8ac4f0050dc1a5353380574e3b3bf0a854f40b0d9976c9797772456f8c7310f6",
-    "bytes": 151568
+    "bytes": 151568,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#8)/WRO, Septiembre (#8).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-04-September/Version-08/program.llsp3",
+    "destination": null,
     "sha256": "1ce37dcc26b0e57c682411c6ab3444f7658372536ef923e902ef180c36adaa4a",
-    "bytes": 35498
+    "bytes": 35498,
+    "publication": "local-only"
   },
   {
     "source": "Codigo/Septiembre/Wro, Septiembre (#8)/WRO, Septiembre (#8).png",
     "destination": "Code/SPIKE Prime/ACTU-04-September/Version-08/code-01.png",
     "sha256": "57c572d8d1d6a5a304ad317196b57c9cbf8654ea72016999c26d27b908759394",
-    "bytes": 189073
+    "bytes": 189073,
+    "publication": "published"
   },
   {
     "source": "Imagenes/179_sin_titulo_20260930202052.png",
     "destination": "General Photos/Team/team-at-event.png",
     "sha256": "647989db674dc4935b32efb8bf7bfabc6728ef9886da4b9ec63d1348b689aa2e",
-    "bytes": 2460540
+    "bytes": 2460540,
+    "publication": "published"
   },
   {
     "source": "Imagenes/179_sin_titulo_20260930202235.png",
     "destination": "General Photos/Events/judging-session.png",
     "sha256": "2a83e7769a12f375b3bd89286065be7d6639b7a73f92c380563e9e4e30c63fde",
-    "bytes": 2107180
+    "bytes": 2107180,
+    "publication": "published"
   },
   {
     "source": "Imagenes/179_sin_titulo_20260930202305.png",
     "destination": "General Photos/Team/team-with-robots.png",
     "sha256": "760bf4eb6809b9a1861a8dd205ec6a0f6729bddb0709fb70058512db5c175c14",
-    "bytes": 2088733
+    "bytes": 2088733,
+    "publication": "published"
   },
   {
     "source": "Imagenes/179_sin_titulo_20260930202645.png",
     "destination": "Mechanics/Development/steering-and-motor-detail.png",
     "sha256": "ff23e765547071763156e2d342cc0213e0dfbb940c6f77d90fbdcfa1afa8bded",
-    "bytes": 1470441
+    "bytes": 1470441,
+    "publication": "published"
   },
   {
     "source": "Imagenes/179_sin_titulo_20260930202719.png",
     "destination": "Mechanics/Development/underside-detail.png",
     "sha256": "53acfad20bb70620d993a40426e5cd8449eeccc6acd4635d395baba0f51e981c",
-    "bytes": 1334457
+    "bytes": 1334457,
+    "publication": "published"
   },
   {
     "source": "Imagenes/179_sin_titulo_20260930202748.png",
     "destination": "Mechanics/Development/rear-drive-detail.png",
     "sha256": "8c72f06c8361f24d5b85ac45e24c55f2abb43b5e5f2349ba2f2dc1ad92fdff41",
-    "bytes": 1587779
+    "bytes": 1587779,
+    "publication": "published"
   },
   {
     "source": "Imagenes/179_sin_titulo_20261001195127.png",
     "destination": "General Photos/Team/team-at-workbench.png",
     "sha256": "d4f0053c6d2caf4b6d0d4d8ff9949c7a1ed94a96945e4fcf60f8fc8b69169e14",
-    "bytes": 3574870
+    "bytes": 3574870,
+    "publication": "published"
   },
   {
     "source": "Imagenes/179_sin_titulo_20261001195259.png",
     "destination": "General Photos/Team/programming-at-event.png",
     "sha256": "e71eec04826f78ee16719a24178a94384b53f6fefe3edab692d446bd1c9220a5",
-    "bytes": 3679865
+    "bytes": 3679865,
+    "publication": "published"
   },
   {
     "source": "Imagenes/20260416_170508.jpg",
     "destination": "General Photos/Development/20260416_170508.jpg",
     "sha256": "ee25f813019c20689e3ad294646c43c8cb7c3bc09a7d3129aa6b1e7ed12c64ea",
-    "bytes": 245159
+    "bytes": 245159,
+    "publication": "published"
   },
   {
     "source": "Imagenes/20260416_170520.jpg",
     "destination": "General Photos/Development/20260416_170520.jpg",
     "sha256": "1e1d82627962717715c3e46c783bb1ce240fff54eb2434331ba9317846543c3b",
-    "bytes": 278167
+    "bytes": 278167,
+    "publication": "published"
   },
   {
     "source": "Imagenes/20260416_170527.jpg",
     "destination": "General Photos/Development/20260416_170527.jpg",
     "sha256": "4ee34bbd3d50487e23e6332c7395338eda4b472e9b848f6d46f37fdf57484932",
-    "bytes": 313094
+    "bytes": 313094,
+    "publication": "published"
   },
   {
     "source": "Imagenes/20260430_084423.jpg",
     "destination": "Mechanics/Development/20260430_084423.jpg",
     "sha256": "4d6e3e308ecae50ab7e9f10dc882c5fd49d7602cbb5ede071fe3829514fc9f0c",
-    "bytes": 407417
+    "bytes": 407417,
+    "publication": "published"
   },
   {
     "source": "Imagenes/20260430_085514.jpg",
     "destination": "Mechanics/Development/20260430_085514.jpg",
     "sha256": "e1787d9afd2812ca41a8425a387d42fe747e91efa79633434dfb52bde522fbac",
-    "bytes": 336997
+    "bytes": 336997,
+    "publication": "published"
   },
   {
     "source": "Imagenes/20260430_092113.jpg",
     "destination": "Mechanics/Development/20260430_092113.jpg",
     "sha256": "b3311eb8db2efc030bf6cfc21d14ef0983ec045d15a87a14125db6fe6eb3d892",
-    "bytes": 432098
+    "bytes": 432098,
+    "publication": "published"
   },
   {
     "source": "Imagenes/20260430_132039.jpg",
     "destination": "Mechanics/Development/20260430_132039.jpg",
     "sha256": "b4c65839561585a6268310a96b0863eb3138d3cb0d05f7a8d60fc5401205deff",
-    "bytes": 223188
+    "bytes": 223188,
+    "publication": "published"
   },
   {
     "source": "Imagenes/20260501_130051.jpg",
     "destination": "Mechanics/Development/20260501_130051.jpg",
     "sha256": "1c14c50f6fdf7f19aa9bc0918ef192127de07b717c9f22694e939343d605de1a",
-    "bytes": 114001
+    "bytes": 114001,
+    "publication": "published"
   },
   {
     "source": "Imagenes/519b0d02-75ea-41c3-9ae2-a790f3eee520.jpg",
     "destination": "General Photos/Events/pedrin-zorrilla-venue.jpg",
     "sha256": "eedc26583fb08c7938f2c28dc7d381ecbefaf5e5497d4b0f6d104427c0bbe958",
-    "bytes": 455920
+    "bytes": 455920,
+    "publication": "published"
   },
   {
     "source": "Imagenes/5a2ddba7-e83a-407b-81aa-8a5d4ccd2016.jpg",
     "destination": "General Photos/Events/event-exhibition.jpg",
     "sha256": "010c942ce80a85e4ed20670a34daa17c78e27ad2b8939aa3557e8c17536090c2",
-    "bytes": 402785
+    "bytes": 402785,
+    "publication": "published"
   },
   {
     "source": "Imagenes/Back.jpg",
     "destination": "Mechanics/Vehicle Photos/back.jpg",
     "sha256": "acb80b49a6d5aaab0f86a1634b1f18a34dc5af96879b8677920bcb7da66b7ed6",
-    "bytes": 343452
+    "bytes": 343452,
+    "publication": "published"
   },
   {
     "source": "Imagenes/cab02a16-67a1-449c-a075-ee964ae6f3a4.jpg",
     "destination": "General Photos/Events/team-at-exhibition.jpg",
     "sha256": "b1c8ac0ddc111ba5aa7ad34956d86c33ceef65c27790e2c15b27081598311d1a",
-    "bytes": 219779
+    "bytes": 219779,
+    "publication": "published"
   },
   {
     "source": "Imagenes/Down.jpg",
     "destination": "Mechanics/Vehicle Photos/bottom.jpg",
     "sha256": "da3c3db864cd7539719f76d0c987a9320804bd3a0e5fc1802d7dff6dceada9cc",
-    "bytes": 439286
+    "bytes": 439286,
+    "publication": "published"
   },
   {
     "source": "Imagenes/Front.jpg",
     "destination": "Mechanics/Vehicle Photos/front.jpg",
     "sha256": "feac9be343163609a8f1ed7a6a93df8f7c462c877ccafc54bbf5ea10b6de4128",
-    "bytes": 363516
+    "bytes": 363516,
+    "publication": "published"
   },
   {
     "source": "Imagenes/IMG-20260929-WA0010.jpg",
     "destination": "Mechanics/Development/IMG-20260929-WA0010.jpg",
     "sha256": "a0104e02ecb31b6ed57759c78a50f9144347e656be5ad8ba39ff2b325ed82fac",
-    "bytes": 121680
+    "bytes": 121680,
+    "publication": "published"
   },
   {
     "source": "Imagenes/IMG_20260929_133232065.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133232065.jpg",
     "sha256": "b90201cc600de9e4bf2da9e5e8ae8c0f331a8259f8bb9e1972e44e6223cd6da6",
-    "bytes": 470393
+    "bytes": 470393,
+    "publication": "published"
   },
   {
     "source": "Imagenes/IMG_20260929_133234961.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133234961.jpg",
     "sha256": "f4ef5e8d5635d45f3e1f6b24699b008b57d22c0f7687e6b2500aca6c671fa9a6",
-    "bytes": 372117
+    "bytes": 372117,
+    "publication": "published"
   },
   {
     "source": "Imagenes/IMG_20260929_133236745.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133236745.jpg",
     "sha256": "2938e92e2305d183e777e145f080f07e138f020c0f30ccb124ca8529041cd1df",
-    "bytes": 337427
+    "bytes": 337427,
+    "publication": "published"
   },
   {
     "source": "Imagenes/IMG_20260929_133243744.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133243744.jpg",
     "sha256": "d9dbf27bc0d222a9c637687710aa80b2aace1fee1ac9a55f68f430a54fff51ed",
-    "bytes": 238919
+    "bytes": 238919,
+    "publication": "published"
   },
   {
     "source": "Imagenes/IMG_20260929_133252801.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133252801.jpg",
     "sha256": "d9a4e1a0260aa675e1715bbfedc266ec0bb5dca03f38cb236d3d200cab1aed76",
-    "bytes": 211042
+    "bytes": 211042,
+    "publication": "published"
   },
   {
     "source": "Imagenes/IMG_20260929_133254513.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133254513.jpg",
     "sha256": "c72a5d92be257ceccf791dff68ec8f4d05329c32561e1131cb2aba28d9c88340",
-    "bytes": 231399
+    "bytes": 231399,
+    "publication": "published"
   },
   {
     "source": "Imagenes/Left.jpg",
     "destination": "Mechanics/Vehicle Photos/left.jpg",
     "sha256": "7c8e35e652330f38acec3a42d036896db0e6ac983b48ea63e797269fa3ac7945",
-    "bytes": 360601
+    "bytes": 360601,
+    "publication": "published"
   },
   {
     "source": "Imagenes/Right.jpg",
     "destination": "Mechanics/Vehicle Photos/right.jpg",
     "sha256": "34678a625282885b132700ac739e2e97bcb2723404ad693fb71946a91092aba7",
-    "bytes": 369049
+    "bytes": 369049,
+    "publication": "published"
   },
   {
     "source": "Imagenes/Screenshot_20260502_160843_Edge.jpg",
     "destination": "Docs/Evidence/2026-05-02-scoreboard.jpg",
     "sha256": "ea9b56d4f774c7f3162f653ad6a4e77ae23f0f14d2563465db2e85369e058915",
-    "bytes": 51059
+    "bytes": 51059,
+    "publication": "published"
   },
   {
     "source": "Imagenes/Up.jpg",
     "destination": "Mechanics/Vehicle Photos/top.jpg",
     "sha256": "a159a12420eb5d8f9c65d347a85433b8a83ff2ddeece2d491db6833f71d349ea",
-    "bytes": 410658
+    "bytes": 410658,
+    "publication": "published"
   },
   {
     "source": "Imagenes/WhatsApp Video 2026-10-01 at 7.42.24 PM.mp4",
     "destination": "video/clips/clip-01.mp4",
     "sha256": "b4e0b3ce6d873ca716ada2daa709362fdb8afea13bceac23b6f91d2b64574d41",
-    "bytes": 7434493
+    "bytes": 7434493,
+    "publication": "published"
   },
   {
     "source": "Imagenes/WhatsApp Video 2026-10-02 at 10.01.09 AM (1).mp4",
     "destination": "video/clips/clip-02.mp4",
     "sha256": "31f2fa5f156b14ec15a3cd16270b60abc29ba8e61d1910695663bae04ad1fc31",
-    "bytes": 2378486
+    "bytes": 2378486,
+    "publication": "published"
   },
   {
     "source": "Imagenes/WhatsApp Video 2026-10-02 at 10.01.09 AM (2).mp4",
     "destination": "video/clips/clip-03.mp4",
     "sha256": "321ba82f5b0b02706adf67305c1cbc1c94ad4db26178730a14f536af6aa50f3d",
-    "bytes": 1984760
+    "bytes": 1984760,
+    "publication": "published"
   },
   {
     "source": "Imagenes/WhatsApp Video 2026-10-02 at 10.01.09 AM.mp4",
     "destination": "video/clips/clip-04.mp4",
     "sha256": "06f8be3e1e9970931a9cf6ce9d6435f9bd9c659a8a85bab7be03f60406a995d0",
-    "bytes": 4667583
+    "bytes": 4667583,
+    "publication": "published"
   },
   {
     "source": "Imagenes/WhatsApp Video 2026-10-02 at 10.01.10 AM.mp4",
     "destination": "video/clips/clip-05.mp4",
     "sha256": "f07939dcc378e8141f2ed6d47e6cbdf7cc1257e96ac0d29b7c084efc32ea0145",
-    "bytes": 2724275
+    "bytes": 2724275,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Historial de documentacion.docx",
     "destination": "Docs/Originals/Historial-de-documentacion.docx",
     "sha256": "423150d78bf8719de7afb26382ef6e677c7753ff427376ddf9dfeb75f82d79d7",
-    "bytes": 36961
+    "bytes": 36961,
+    "publication": "published"
   },
   {
     "source": "Codigo/Abril/Imagenes/20260416_170508.jpg",
     "destination": "General Photos/Development/20260416_170508.jpg",
     "sha256": "ee25f813019c20689e3ad294646c43c8cb7c3bc09a7d3129aa6b1e7ed12c64ea",
-    "bytes": 245159
+    "bytes": 245159,
+    "publication": "published"
   },
   {
     "source": "Codigo/Abril/Imagenes/20260416_170520.jpg",
     "destination": "General Photos/Development/20260416_170520.jpg",
     "sha256": "1e1d82627962717715c3e46c783bb1ce240fff54eb2434331ba9317846543c3b",
-    "bytes": 278167
+    "bytes": 278167,
+    "publication": "published"
   },
   {
     "source": "Codigo/Abril/Imagenes/20260416_170527.jpg",
     "destination": "General Photos/Development/20260416_170527.jpg",
     "sha256": "4ee34bbd3d50487e23e6332c7395338eda4b472e9b848f6d46f37fdf57484932",
-    "bytes": 313094
+    "bytes": 313094,
+    "publication": "published"
   },
   {
     "source": "Codigo/Abril/Imagenes/20260430_084423.jpg",
     "destination": "Mechanics/Development/20260430_084423.jpg",
     "sha256": "4d6e3e308ecae50ab7e9f10dc882c5fd49d7602cbb5ede071fe3829514fc9f0c",
-    "bytes": 407417
+    "bytes": 407417,
+    "publication": "published"
   },
   {
     "source": "Codigo/Abril/Imagenes/20260430_085514.jpg",
     "destination": "Mechanics/Development/20260430_085514.jpg",
     "sha256": "e1787d9afd2812ca41a8425a387d42fe747e91efa79633434dfb52bde522fbac",
-    "bytes": 336997
+    "bytes": 336997,
+    "publication": "published"
   },
   {
     "source": "Codigo/Abril/Imagenes/20260430_092113.jpg",
     "destination": "Mechanics/Development/20260430_092113.jpg",
     "sha256": "b3311eb8db2efc030bf6cfc21d14ef0983ec045d15a87a14125db6fe6eb3d892",
-    "bytes": 432098
+    "bytes": 432098,
+    "publication": "published"
   },
   {
     "source": "Codigo/Abril/Imagenes/20260430_132039.jpg",
     "destination": "Mechanics/Development/20260430_132039.jpg",
     "sha256": "b4c65839561585a6268310a96b0863eb3138d3cb0d05f7a8d60fc5401205deff",
-    "bytes": 223188
+    "bytes": 223188,
+    "publication": "published"
   },
   {
     "source": "Codigo/Abril/Imagenes/20260501_130055.jpg",
     "destination": "archive/additional-source-material/Codigo/Abril/Imagenes/20260501_130055.jpg",
     "sha256": "3a84fbc71de33b6e6edc26b4556e04363a4782edb239e89ad81f7fb0f7b2b12a",
-    "bytes": 103000
+    "bytes": 103000,
+    "publication": "published"
   },
   {
     "source": "Codigo/Mayo/Imagenes/Screenshot_20260502_160843_Edge.jpg",
     "destination": "Docs/Evidence/2026-05-02-scoreboard.jpg",
     "sha256": "ea9b56d4f774c7f3162f653ad6a4e77ae23f0f14d2563465db2e85369e058915",
-    "bytes": 51059
+    "bytes": 51059,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/179_sin_titulo_20260930202645.png",
     "destination": "Mechanics/Development/steering-and-motor-detail.png",
     "sha256": "ff23e765547071763156e2d342cc0213e0dfbb940c6f77d90fbdcfa1afa8bded",
-    "bytes": 1470441
+    "bytes": 1470441,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/179_sin_titulo_20260930202719.png",
     "destination": "Mechanics/Development/underside-detail.png",
     "sha256": "53acfad20bb70620d993a40426e5cd8449eeccc6acd4635d395baba0f51e981c",
-    "bytes": 1334457
+    "bytes": 1334457,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/179_sin_titulo_20260930202748.png",
     "destination": "Mechanics/Development/rear-drive-detail.png",
     "sha256": "8c72f06c8361f24d5b85ac45e24c55f2abb43b5e5f2349ba2f2dc1ad92fdff41",
-    "bytes": 1587779
+    "bytes": 1587779,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/IMG_20260929_133232065.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133232065.jpg",
     "sha256": "b90201cc600de9e4bf2da9e5e8ae8c0f331a8259f8bb9e1972e44e6223cd6da6",
-    "bytes": 470393
+    "bytes": 470393,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/IMG_20260929_133234961.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133234961.jpg",
     "sha256": "f4ef5e8d5635d45f3e1f6b24699b008b57d22c0f7687e6b2500aca6c671fa9a6",
-    "bytes": 372117
+    "bytes": 372117,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/IMG_20260929_133236745.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133236745.jpg",
     "sha256": "2938e92e2305d183e777e145f080f07e138f020c0f30ccb124ca8529041cd1df",
-    "bytes": 337427
+    "bytes": 337427,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/IMG_20260929_133243744.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133243744.jpg",
     "sha256": "d9dbf27bc0d222a9c637687710aa80b2aace1fee1ac9a55f68f430a54fff51ed",
-    "bytes": 238919
+    "bytes": 238919,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/IMG_20260929_133252801.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133252801.jpg",
     "sha256": "d9a4e1a0260aa675e1715bbfedc266ec0bb5dca03f38cb236d3d200cab1aed76",
-    "bytes": 211042
+    "bytes": 211042,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/IMG_20260929_133254513.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133254513.jpg",
     "sha256": "c72a5d92be257ceccf791dff68ec8f4d05329c32561e1131cb2aba28d9c88340",
-    "bytes": 231399
+    "bytes": 231399,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/WRO, competence/179_sin_titulo_20260930202052.png",
     "destination": "General Photos/Team/team-at-event.png",
     "sha256": "647989db674dc4935b32efb8bf7bfabc6728ef9886da4b9ec63d1348b689aa2e",
-    "bytes": 2460540
+    "bytes": 2460540,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/WRO, competence/179_sin_titulo_20260930202235.png",
     "destination": "General Photos/Events/judging-session.png",
     "sha256": "2a83e7769a12f375b3bd89286065be7d6639b7a73f92c380563e9e4e30c63fde",
-    "bytes": 2107180
+    "bytes": 2107180,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/WRO, competence/179_sin_titulo_20261001195127.png",
     "destination": "General Photos/Team/team-at-workbench.png",
     "sha256": "d4f0053c6d2caf4b6d0d4d8ff9949c7a1ed94a96945e4fcf60f8fc8b69169e14",
-    "bytes": 3574870
+    "bytes": 3574870,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/WRO, competence/179_sin_titulo_20261001195259.png",
     "destination": "General Photos/Team/programming-at-event.png",
     "sha256": "e71eec04826f78ee16719a24178a94384b53f6fefe3edab692d446bd1c9220a5",
-    "bytes": 3679865
+    "bytes": 3679865,
+    "publication": "published"
   },
   {
     "source": "Codigo/Septiembre/Imagenes/WRO, competence/519b0d02-75ea-41c3-9ae2-a790f3eee520.jpg",
     "destination": "General Photos/Events/pedrin-zorrilla-venue.jpg",
     "sha256": "eedc26583fb08c7938f2c28dc7d381ecbefaf5e5497d4b0f6d104427c0bbe958",
-    "bytes": 455920
+    "bytes": 455920,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Actual Model/Back.jpg",
     "destination": "Mechanics/Vehicle Photos/back.jpg",
     "sha256": "acb80b49a6d5aaab0f86a1634b1f18a34dc5af96879b8677920bcb7da66b7ed6",
-    "bytes": 343452
+    "bytes": 343452,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Actual Model/Down.jpg",
     "destination": "Mechanics/Vehicle Photos/bottom.jpg",
     "sha256": "da3c3db864cd7539719f76d0c987a9320804bd3a0e5fc1802d7dff6dceada9cc",
-    "bytes": 439286
+    "bytes": 439286,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Actual Model/Front.jpg",
     "destination": "Mechanics/Vehicle Photos/front.jpg",
     "sha256": "feac9be343163609a8f1ed7a6a93df8f7c462c877ccafc54bbf5ea10b6de4128",
-    "bytes": 363516
+    "bytes": 363516,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Actual Model/Left.jpg",
     "destination": "Mechanics/Vehicle Photos/left.jpg",
     "sha256": "7c8e35e652330f38acec3a42d036896db0e6ac983b48ea63e797269fa3ac7945",
-    "bytes": 360601
+    "bytes": 360601,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Actual Model/Right.jpg",
     "destination": "Mechanics/Vehicle Photos/right.jpg",
     "sha256": "34678a625282885b132700ac739e2e97bcb2723404ad693fb71946a91092aba7",
-    "bytes": 369049
+    "bytes": 369049,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Actual Model/Up.jpg",
     "destination": "Mechanics/Vehicle Photos/top.jpg",
     "sha256": "a159a12420eb5d8f9c65d347a85433b8a83ff2ddeece2d491db6833f71d349ea",
-    "bytes": 410658
+    "bytes": 410658,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Codigos/Codigo Mayo (#1)/Codigo Mayo (#1).png",
     "destination": "Code/SPIKE Prime/ACTU-02-May/Version-01/code-01.png",
     "sha256": "812b5beb36202cf257a15ff3fca64d9606e921c81bd547898021983a80c4ea42",
-    "bytes": 197969
+    "bytes": 197969,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Codigos/Codigo Mayo (#1)/Robot-360-Clockwise - Copy (#1).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-02-May/Version-01/program.llsp3",
+    "destination": null,
     "sha256": "14de0a95e2e4f8292942b7c8fb59d692c9f122e1ae1aef5030fa4176eadce92c",
-    "bytes": 1735996
+    "bytes": 1735996,
+    "publication": "local-only"
   },
   {
     "source": "WRO competence (Mayo)/Codigos/Codigo Mayo (#2)/Codigo Mayo  (#2).png",
     "destination": "Code/SPIKE Prime/ACTU-02-May/Version-02/code-01.png",
     "sha256": "591c11060b7e9e964a15da9585b61de5ce28e556f69399fbfb282d46f8e95aa1",
-    "bytes": 168384
+    "bytes": 168384,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Codigos/Codigo Mayo (#2)/Robot-360-Clockwise (#2).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-02-May/Version-02/program.llsp3",
+    "destination": null,
     "sha256": "03dc3f6109019af619e4e279e56c23ee483eb89405809ec9f893ebba6b2b8a9b",
-    "bytes": 1735956
+    "bytes": 1735956,
+    "publication": "local-only"
   },
   {
     "source": "WRO competence (Mayo)/Codigos/Codigo Mayo (#3)/Codigo Mayo (1 de 2) (#3).png",
     "destination": "Code/SPIKE Prime/ACTU-02-May/Version-03/code-01.png",
     "sha256": "6aaacc91098c64b7679b0527a5d2aef68a83a0bcd3863ef7d7284dfe861f43b5",
-    "bytes": 216384
+    "bytes": 216384,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Codigos/Codigo Mayo (#3)/Codigo Mayo (2 de 2) (#3).png",
     "destination": "Code/SPIKE Prime/ACTU-02-May/Version-03/code-02.png",
     "sha256": "6bf79e3b9ea66f7295a06a23d549ae65213bc129f08ed988b56853a0742013f6",
-    "bytes": 147149
+    "bytes": 147149,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Codigos/Codigo Mayo (#3)/ROBOT-CountrrPARK- Copy (#3).llsp3",
-    "destination": "Code/SPIKE Prime/ACTU-02-May/Version-03/program.llsp3",
+    "destination": null,
     "sha256": "254c16b3a56b7aefe43a848cdd05a4e6d8f8502f7fc4dd5396ea649c8f8f369d",
-    "bytes": 1741553
+    "bytes": 1741553,
+    "publication": "local-only"
   },
   {
     "source": "WRO competence (Mayo)/Codigos/Imagenes/Screenshot_20260502_160843_Edge.jpg",
     "destination": "Docs/Evidence/2026-05-02-scoreboard.jpg",
     "sha256": "ea9b56d4f774c7f3162f653ad6a4e77ae23f0f14d2563465db2e85369e058915",
-    "bytes": 51059
+    "bytes": 51059,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Codigos/Imagenes/WhatsApp Video 2026-10-02 at 10.01.09 AM (1).mp4",
     "destination": "video/clips/clip-02.mp4",
     "sha256": "31f2fa5f156b14ec15a3cd16270b60abc29ba8e61d1910695663bae04ad1fc31",
-    "bytes": 2378486
+    "bytes": 2378486,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Codigos/Imagenes/WhatsApp Video 2026-10-02 at 10.01.09 AM (2).mp4",
     "destination": "video/clips/clip-03.mp4",
     "sha256": "321ba82f5b0b02706adf67305c1cbc1c94ad4db26178730a14f536af6aa50f3d",
-    "bytes": 1984760
+    "bytes": 1984760,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Codigos/Imagenes/WhatsApp Video 2026-10-02 at 10.01.09 AM.mp4",
     "destination": "video/clips/clip-04.mp4",
     "sha256": "06f8be3e1e9970931a9cf6ce9d6435f9bd9c659a8a85bab7be03f60406a995d0",
-    "bytes": 4667583
+    "bytes": 4667583,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Codigos/Imagenes/WhatsApp Video 2026-10-02 at 10.01.10 AM.mp4",
     "destination": "video/clips/clip-05.mp4",
     "sha256": "f07939dcc378e8141f2ed6d47e6cbdf7cc1257e96ac0d29b7c084efc32ea0145",
-    "bytes": 2724275
+    "bytes": 2724275,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/Github.txt",
     "destination": "archive/additional-source-material/WRO competence (Mayo)/Github.txt",
     "sha256": "f4d2115e2880e5bc0ff01500ff9065472b4a3dc92949f224fdf6feaad2c72cf8",
-    "bytes": 76
+    "bytes": 76,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/179_sin_titulo_20260930202052.png",
     "destination": "General Photos/Team/team-at-event.png",
     "sha256": "647989db674dc4935b32efb8bf7bfabc6728ef9886da4b9ec63d1348b689aa2e",
-    "bytes": 2460540
+    "bytes": 2460540,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/179_sin_titulo_20260930202235.png",
     "destination": "General Photos/Events/judging-session.png",
     "sha256": "2a83e7769a12f375b3bd89286065be7d6639b7a73f92c380563e9e4e30c63fde",
-    "bytes": 2107180
+    "bytes": 2107180,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/179_sin_titulo_20260930202305.png",
     "destination": "General Photos/Team/team-with-robots.png",
     "sha256": "760bf4eb6809b9a1861a8dd205ec6a0f6729bddb0709fb70058512db5c175c14",
-    "bytes": 2088733
+    "bytes": 2088733,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/179_sin_titulo_20260930202645.png",
     "destination": "Mechanics/Development/steering-and-motor-detail.png",
     "sha256": "ff23e765547071763156e2d342cc0213e0dfbb940c6f77d90fbdcfa1afa8bded",
-    "bytes": 1470441
+    "bytes": 1470441,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/179_sin_titulo_20260930202719.png",
     "destination": "Mechanics/Development/underside-detail.png",
     "sha256": "53acfad20bb70620d993a40426e5cd8449eeccc6acd4635d395baba0f51e981c",
-    "bytes": 1334457
+    "bytes": 1334457,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/179_sin_titulo_20260930202748.png",
     "destination": "Mechanics/Development/rear-drive-detail.png",
     "sha256": "8c72f06c8361f24d5b85ac45e24c55f2abb43b5e5f2349ba2f2dc1ad92fdff41",
-    "bytes": 1587779
+    "bytes": 1587779,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/179_sin_titulo_20261001195127.png",
     "destination": "General Photos/Team/team-at-workbench.png",
     "sha256": "d4f0053c6d2caf4b6d0d4d8ff9949c7a1ed94a96945e4fcf60f8fc8b69169e14",
-    "bytes": 3574870
+    "bytes": 3574870,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/179_sin_titulo_20261001195259.png",
     "destination": "General Photos/Team/programming-at-event.png",
     "sha256": "e71eec04826f78ee16719a24178a94384b53f6fefe3edab692d446bd1c9220a5",
-    "bytes": 3679865
+    "bytes": 3679865,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/20260430_084423.jpg",
     "destination": "Mechanics/Development/20260430_084423.jpg",
     "sha256": "4d6e3e308ecae50ab7e9f10dc882c5fd49d7602cbb5ede071fe3829514fc9f0c",
-    "bytes": 407417
+    "bytes": 407417,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/20260430_085514.jpg",
     "destination": "Mechanics/Development/20260430_085514.jpg",
     "sha256": "e1787d9afd2812ca41a8425a387d42fe747e91efa79633434dfb52bde522fbac",
-    "bytes": 336997
+    "bytes": 336997,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/20260430_092113.jpg",
     "destination": "Mechanics/Development/20260430_092113.jpg",
     "sha256": "b3311eb8db2efc030bf6cfc21d14ef0983ec045d15a87a14125db6fe6eb3d892",
-    "bytes": 432098
+    "bytes": 432098,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/20260430_132039.jpg",
     "destination": "Mechanics/Development/20260430_132039.jpg",
     "sha256": "b4c65839561585a6268310a96b0863eb3138d3cb0d05f7a8d60fc5401205deff",
-    "bytes": 223188
+    "bytes": 223188,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/20260501_130051.jpg",
     "destination": "Mechanics/Development/20260501_130051.jpg",
     "sha256": "1c14c50f6fdf7f19aa9bc0918ef192127de07b717c9f22694e939343d605de1a",
-    "bytes": 114001
+    "bytes": 114001,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/519b0d02-75ea-41c3-9ae2-a790f3eee520.jpg",
     "destination": "General Photos/Events/pedrin-zorrilla-venue.jpg",
     "sha256": "eedc26583fb08c7938f2c28dc7d381ecbefaf5e5497d4b0f6d104427c0bbe958",
-    "bytes": 455920
+    "bytes": 455920,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/5a2ddba7-e83a-407b-81aa-8a5d4ccd2016.jpg",
     "destination": "General Photos/Events/event-exhibition.jpg",
     "sha256": "010c942ce80a85e4ed20670a34daa17c78e27ad2b8939aa3557e8c17536090c2",
-    "bytes": 402785
+    "bytes": 402785,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/cab02a16-67a1-449c-a075-ee964ae6f3a4.jpg",
     "destination": "General Photos/Events/team-at-exhibition.jpg",
     "sha256": "b1c8ac0ddc111ba5aa7ad34956d86c33ceef65c27790e2c15b27081598311d1a",
-    "bytes": 219779
+    "bytes": 219779,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/IMG-20260929-WA0010.jpg",
     "destination": "Mechanics/Development/IMG-20260929-WA0010.jpg",
     "sha256": "a0104e02ecb31b6ed57759c78a50f9144347e656be5ad8ba39ff2b325ed82fac",
-    "bytes": 121680
+    "bytes": 121680,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/IMG_20260929_133232065.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133232065.jpg",
     "sha256": "b90201cc600de9e4bf2da9e5e8ae8c0f331a8259f8bb9e1972e44e6223cd6da6",
-    "bytes": 470393
+    "bytes": 470393,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/IMG_20260929_133234961.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133234961.jpg",
     "sha256": "f4ef5e8d5635d45f3e1f6b24699b008b57d22c0f7687e6b2500aca6c671fa9a6",
-    "bytes": 372117
+    "bytes": 372117,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/IMG_20260929_133236745.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133236745.jpg",
     "sha256": "2938e92e2305d183e777e145f080f07e138f020c0f30ccb124ca8529041cd1df",
-    "bytes": 337427
+    "bytes": 337427,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/IMG_20260929_133243744.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133243744.jpg",
     "sha256": "d9dbf27bc0d222a9c637687710aa80b2aace1fee1ac9a55f68f430a54fff51ed",
-    "bytes": 238919
+    "bytes": 238919,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/IMG_20260929_133252801.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133252801.jpg",
     "sha256": "d9a4e1a0260aa675e1715bbfedc266ec0bb5dca03f38cb236d3d200cab1aed76",
-    "bytes": 211042
+    "bytes": 211042,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/IMG_20260929_133254513.jpg",
     "destination": "Mechanics/Development/IMG_20260929_133254513.jpg",
     "sha256": "c72a5d92be257ceccf791dff68ec8f4d05329c32561e1131cb2aba28d9c88340",
-    "bytes": 231399
+    "bytes": 231399,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/Screenshot_20260502_160843_Edge.jpg",
     "destination": "Docs/Evidence/2026-05-02-scoreboard.jpg",
     "sha256": "ea9b56d4f774c7f3162f653ad6a4e77ae23f0f14d2563465db2e85369e058915",
-    "bytes": 51059
+    "bytes": 51059,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/WhatsApp Video 2026-10-01 at 7.42.24 PM.mp4",
     "destination": "video/clips/clip-01.mp4",
     "sha256": "b4e0b3ce6d873ca716ada2daa709362fdb8afea13bceac23b6f91d2b64574d41",
-    "bytes": 7434493
+    "bytes": 7434493,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/WhatsApp Video 2026-10-02 at 10.01.09 AM (1).mp4",
     "destination": "video/clips/clip-02.mp4",
     "sha256": "31f2fa5f156b14ec15a3cd16270b60abc29ba8e61d1910695663bae04ad1fc31",
-    "bytes": 2378486
+    "bytes": 2378486,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/WhatsApp Video 2026-10-02 at 10.01.09 AM (2).mp4",
     "destination": "video/clips/clip-03.mp4",
     "sha256": "321ba82f5b0b02706adf67305c1cbc1c94ad4db26178730a14f536af6aa50f3d",
-    "bytes": 1984760
+    "bytes": 1984760,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/WhatsApp Video 2026-10-02 at 10.01.09 AM.mp4",
     "destination": "video/clips/clip-04.mp4",
     "sha256": "06f8be3e1e9970931a9cf6ce9d6435f9bd9c659a8a85bab7be03f60406a995d0",
-    "bytes": 4667583
+    "bytes": 4667583,
+    "publication": "published"
   },
   {
     "source": "WRO competence (Mayo)/imagenes/WhatsApp Video 2026-10-02 at 10.01.10 AM.mp4",
     "destination": "video/clips/clip-05.mp4",
     "sha256": "f07939dcc378e8141f2ed6d47e6cbdf7cc1257e96ac0d29b7c084efc32ea0145",
-    "bytes": 2724275
+    "bytes": 2724275,
+    "publication": "published"
   }
 ]

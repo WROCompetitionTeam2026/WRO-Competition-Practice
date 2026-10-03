@@ -1,22 +1,20 @@
-"""Check documentation links, asset provenance and SPIKE source export fidelity.
+"""Verifica la documentación, las fotos y la publicación de capturas solamente.
 
-Run from the repository root: python tools/verify_repository.py
-These checks inspect repository files; they do not simulate or certify the robot.
+Ejecutar desde el repositorio: python tools/verify_repository.py
+Estas comprobaciones revisan archivos; no simulan ni certifican el robot.
 """
 from __future__ import annotations
 
 import ast
 import hashlib
-from io import BytesIO
 import json
 from pathlib import Path
 import re
 import sys
+import subprocess
 from urllib.parse import unquote, urlsplit
 from zipfile import ZipFile
 import xml.etree.ElementTree as ET
-
-from export_spike import block_listing
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -24,13 +22,21 @@ ROOT = Path(__file__).resolve().parents[1]
 def verify() -> list[str]:
     errors = []
     readme = (ROOT / 'README.md').read_text(encoding='utf-8')
-    print(f'Root README: {len(readme):,} characters (minimum 5,000)')
+    print(f'README principal: {len(readme):,} caracteres (mínimo de referencia: 5,000)')
     if len(readme) < 5000:
         errors.append('Root README is below 5,000 characters')
+    if 'Student Engineers' not in readme:
+        errors.append('El README debe identificar al equipo como Student Engineers')
 
     link_count = 0
-    files = [p for p in ROOT.rglob('*') if p.is_file() and '.git' not in p.relative_to(ROOT).parts]
+    tracked = subprocess.check_output(['git', 'ls-files', '-z'], cwd=ROOT).decode('utf-8').split('\0')
+    published = {name for name in tracked if name}
+    files = [ROOT / name for name in sorted(published) if (ROOT / name).is_file()]
     for path in files:
+        rel = path.relative_to(ROOT).as_posix()
+        if (path.suffix.lower() in ('.llsp3', '.sb3') or path.name.lower().endswith(('.blocks.json', '.blocks.md', '.metadata.json'))
+                or (path.suffix == '.py' and path.relative_to(ROOT).parts[0] in ('Code', 'archive'))):
+            errors.append(f'Robot program/source export must remain local: {rel}')
         if path.stat().st_size >= 100 * 1024 * 1024:
             errors.append(f'{path.relative_to(ROOT)} exceeds GitHub normal-file limit')
         if path.suffix == '.svg':
@@ -60,7 +66,7 @@ def verify() -> list[str]:
                 dest = (path.parent / unquote(parsed.path)).resolve()
                 if not dest.is_relative_to(ROOT) or not dest.exists():
                     errors.append(f'{path.relative_to(ROOT)} -> broken local link: {link}')
-    print(f'Local Markdown/HTML file links: {link_count}')
+    print(f'Enlaces internos de Markdown/HTML: {link_count}')
 
     for view in ('front', 'back', 'left', 'right', 'top', 'bottom'):
         if not (ROOT / 'Mechanics/Vehicle Photos' / f'{view}.jpg').is_file():
@@ -69,44 +75,27 @@ def verify() -> list[str]:
     manifest = json.loads((ROOT / 'Docs/import-manifest.json').read_text(encoding='utf-8'))
     cached = {}
     for row in manifest:
+        if row.get('publication') == 'local-only':
+            if row.get('destination') is not None:
+                errors.append(f'Local-only program has a published destination: {row["source"]}')
+            continue
         path = ROOT / row['destination']
-        if not path.exists():
+        if row['destination'] not in published or not path.exists():
             errors.append(f'Missing imported asset: {row["destination"]}')
             continue
         if path not in cached:
             cached[path] = hashlib.sha256(path.read_bytes()).hexdigest()
         if cached[path] != row['sha256'] or path.stat().st_size != row['bytes']:
             errors.append(f'Original asset changed: {row["destination"]}')
-    print(f'Provenance: {len(manifest)} source paths, {len(cached)} imported asset paths')
+    print(f'Inventario: {len(manifest)} ubicaciones de origen; {len(cached)} archivos originales publicados')
 
-    projects = sorted((ROOT / 'Code').rglob('*.llsp3'))
-    if len(projects) != 20:
-        errors.append(f'Expected 20 supplied projects, found {len(projects)}')
-    for path in projects + sorted((ROOT / 'archive/pre-refresh').rglob('*.llsp3')):
-        try:
-            with ZipFile(path) as archive:
-                if archive.testzip() is not None:
-                    errors.append(f'Corrupt archive: {path.relative_to(ROOT)}')
-                original = json.loads(archive.read('manifest.json'))
-                metadata = json.loads(path.with_suffix('.metadata.json').read_text(encoding='utf-8'))
-                for key, value in metadata.items():
-                    if original.get(key) != value:
-                        errors.append(f'Metadata mismatch: {path.relative_to(ROOT)} / {key}')
-                if 'scratch.sb3' in archive.namelist():
-                    with ZipFile(BytesIO(archive.read('scratch.sb3'))) as scratch:
-                        body = json.loads(scratch.read('project.json'))
-                    export = json.loads(path.with_suffix('.blocks.json').read_text(encoding='utf-8'))
-                    if body != export:
-                        errors.append(f'Block export mismatch: {path.relative_to(ROOT)}')
-                    if block_listing(body) != path.with_suffix('.blocks.md').read_text(encoding='utf-8'):
-                        errors.append(f'Block listing mismatch: {path.relative_to(ROOT)}')
-                else:
-                    body = json.loads(archive.read('projectbody.json'))['main']
-                    if body != path.with_suffix('.py').read_text(encoding='utf-8'):
-                        errors.append(f'Python export mismatch: {path.relative_to(ROOT)}')
-        except (OSError, ValueError, KeyError) as e:
-            errors.append(f'Project inspection failed: {path.relative_to(ROOT)}: {e}')
-    print(f'SPIKE projects: {len(projects)} current-source projects + preserved old project')
+    versions = json.loads((ROOT / 'Docs/software-versions.json').read_text(encoding='utf-8'))
+    for version in versions:
+        for screenshot in version['screenshots']:
+            if screenshot not in published or not (ROOT / screenshot).is_file():
+                errors.append(f'Missing program screenshot: {screenshot}')
+    screenshots = [name for name in published if name.startswith('Code/') and name.endswith('.png')]
+    print(f'Galería de programación: {len(screenshots)} capturas; sin proyectos ni exportaciones del robot publicados')
 
     source_doc = ROOT / 'Docs/Originals/Historial-de-documentacion.docx'
     corrected_doc = ROOT / 'Docs/Historial-de-documentacion-corregido.docx'
@@ -123,7 +112,7 @@ def verify() -> list[str]:
         if original_structure != corrected_structure:
             errors.append('Corrected notebook modified original formatting structure')
         ET.fromstring(corrected_xml)
-    print('Corrected Word notebook: original layout/media/package preserved')
+    print('Libreta corregida: formato, contenido multimedia y estructura de Word conservados')
     return errors
 
 
@@ -133,4 +122,4 @@ if __name__ == '__main__':
         for error in errors:
             print('ERROR:', error)
         sys.exit(1)
-    print('PASS: source assets, exports, notebook structure and local links verified.')
+    print('CORRECTO: capturas, archivos originales, formato de la libreta y enlaces verificados.')

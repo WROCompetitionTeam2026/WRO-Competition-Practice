@@ -1,17 +1,17 @@
-# ERA / six vehicle views
+# ERA / las seis vistas
 
-The original six named images supplied by the team. Their filenames identify the intended viewpoint. Confirm that this set represents the final assembly after the documented October modifications.
+Estas son las seis fotos del carro entregadas por el equipo. Hay que confirmar que representan el montaje final después de los últimos cambios.
 
-| Front | Rear |
+| Frente | Atrás |
 |---|---|
-| ![Front view](front.jpg) | ![Rear view](back.jpg) |
+| ![Vista frontal](front.jpg) | ![Vista trasera](back.jpg) |
 
-| Left | Right |
+| Lado izquierdo | Lado derecho |
 |---|---|
-| ![Left view](left.jpg) | ![Right view](right.jpg) |
+| ![Vista izquierda](left.jpg) | ![Vista derecha](right.jpg) |
 
-| Top | Bottom |
+| Arriba | Abajo |
 |---|---|
-| ![Top view](top.jpg) | ![Bottom view](bottom.jpg) |
+| ![Vista superior](top.jpg) | ![Vista inferior](bottom.jpg) |
 
-[Mechanical documentation](../README.md) · [Repository home](../../README.md)
+[Mecánica](../README.md) · [Volver al inicio](../../README.md)

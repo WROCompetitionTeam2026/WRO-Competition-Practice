@@ -2,201 +2,292 @@
   {
     "month": "April",
     "version": 1,
-    "file": "Code/SPIKE Prime/ACTU-01-April/Version-01/program.llsp3",
     "type": "word-blocks",
     "name": "abril (#1)",
     "created": "2026-04-08T16:57:55.889Z",
     "lastsaved": "2026-10-01T00:08:51.284Z",
-    "slotIndex": 0
+    "slotIndex": 0,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-01-April/Version-01/code-01.png"
+    ]
   },
   {
     "month": "April",
     "version": 2,
-    "file": "Code/SPIKE Prime/ACTU-01-April/Version-02/program.llsp3",
     "type": "word-blocks",
     "name": "abril 2.0 (#2)",
     "created": "2026-04-08T16:57:55.889Z",
     "lastsaved": "2026-10-01T00:09:42.295Z",
-    "slotIndex": 0
+    "slotIndex": 0,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-01-April/Version-02/code-01.png"
+    ]
   },
   {
     "month": "May",
     "version": 1,
-    "file": "Code/SPIKE Prime/ACTU-02-May/Version-01/program.llsp3",
     "type": "word-blocks",
     "name": "Robot-360-Clockwise - Copy",
     "created": "2026-05-01T12:36:49.451Z",
     "lastsaved": "2026-10-02T00:02:29.790Z",
-    "slotIndex": 3
+    "slotIndex": 3,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-02-May/Version-01/code-01.png"
+    ]
   },
   {
     "month": "May",
     "version": 2,
-    "file": "Code/SPIKE Prime/ACTU-02-May/Version-02/program.llsp3",
     "type": "word-blocks",
     "name": "Robot-360-Clockwise",
     "created": "2026-05-01T12:36:49.451Z",
     "lastsaved": "2026-10-02T00:03:21.505Z",
-    "slotIndex": 2
+    "slotIndex": 2,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-02-May/Version-02/code-01.png"
+    ]
   },
   {
     "month": "May",
     "version": 3,
-    "file": "Code/SPIKE Prime/ACTU-02-May/Version-03/program.llsp3",
     "type": "word-blocks",
     "name": "ROBOT-CountrrPARK- Copy",
     "created": "2026-05-01T12:36:49.451Z",
     "lastsaved": "2026-05-03T17:44:18.023Z",
-    "slotIndex": 6
+    "slotIndex": 6,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-02-May/Version-03/code-01.png",
+      "Code/SPIKE Prime/ACTU-02-May/Version-03/code-02.png"
+    ]
   },
   {
     "month": "August",
     "version": 1,
-    "file": "Code/SPIKE Prime/ACTU-03-August/Version-01/WRO-Revamp-2026.llsp3",
     "type": "python",
     "name": "WRO-Revamp-2026-1",
     "created": "2026-04-17T15:53:21.604Z",
     "lastsaved": "2026-10-02T13:28:01.096Z",
-    "slotIndex": 4
+    "slotIndex": 4,
+    "source_project": "WRO-Revamp-2026.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-03-August/Version-01/code-01.png",
+      "Code/SPIKE Prime/ACTU-03-August/Version-01/code-02.png",
+      "Code/SPIKE Prime/ACTU-03-August/Version-01/code-03.png",
+      "Code/SPIKE Prime/ACTU-03-August/Version-01/code-04.png",
+      "Code/SPIKE Prime/ACTU-03-August/Version-01/code-05.png",
+      "Code/SPIKE Prime/ACTU-03-August/Version-01/code-06.png",
+      "Code/SPIKE Prime/ACTU-03-August/Version-01/code-07.png",
+      "Code/SPIKE Prime/ACTU-03-August/Version-01/code-08.png",
+      "Code/SPIKE Prime/ACTU-03-August/Version-01/code-09.png",
+      "Code/SPIKE Prime/ACTU-03-August/Version-01/code-10.png",
+      "Code/SPIKE Prime/ACTU-03-August/Version-01/code-11.png"
+    ]
   },
   {
     "month": "August",
     "version": 2,
-    "file": "Code/SPIKE Prime/ACTU-03-August/Version-02/program.llsp3",
     "type": "word-blocks",
     "name": "Project 3",
     "created": "2026-05-01T12:36:49.451Z",
     "lastsaved": "2026-10-01T12:00:47.712Z",
-    "slotIndex": 9
+    "slotIndex": 9,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-03-August/Version-02/code-01.png"
+    ]
   },
   {
     "month": "August",
     "version": 3,
-    "file": "Code/SPIKE Prime/ACTU-03-August/Version-03/program.llsp3",
     "type": "word-blocks",
     "name": "Project 3 improved-1",
     "created": "2026-05-01T12:36:49.451Z",
     "lastsaved": "2026-10-02T13:50:39.947Z",
-    "slotIndex": 4
+    "slotIndex": 4,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-03-August/Version-03/code-01.png"
+    ]
   },
   {
     "month": "August",
     "version": 4,
-    "file": "Code/SPIKE Prime/ACTU-03-August/Version-04/program.llsp3",
     "type": "word-blocks",
     "name": "Project 3 improved-4",
     "created": "2026-05-01T12:36:49.451Z",
     "lastsaved": "2026-10-02T13:50:21.994Z",
-    "slotIndex": 1
+    "slotIndex": 1,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-03-August/Version-04/code-01.png"
+    ]
   },
   {
     "month": "September",
     "version": 1,
-    "file": "Code/SPIKE Prime/ACTU-04-September/Version-01/program.llsp3",
     "type": "word-blocks",
     "name": "Codigo (#1)",
     "created": "2026-05-01T12:36:49.451Z",
     "lastsaved": "2026-09-30T20:57:51.129Z",
-    "slotIndex": 4
+    "slotIndex": 4,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-04-September/Version-01/code-01.png"
+    ]
   },
   {
     "month": "September",
     "version": 2,
-    "file": "Code/SPIKE Prime/ACTU-04-September/Version-02/program.llsp3",
     "type": "word-blocks",
     "name": "anti-clock (#2)",
     "created": "2026-05-01T12:36:49.451Z",
     "lastsaved": "2026-09-30T21:01:32.541Z",
-    "slotIndex": 9
+    "slotIndex": 9,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-04-September/Version-02/code-01.png"
+    ]
   },
   {
     "month": "September",
     "version": 3,
-    "file": "Code/SPIKE Prime/ACTU-04-September/Version-03/program.llsp3",
     "type": "word-blocks",
     "name": "funciona yay (#3)",
     "created": "2026-05-01T12:36:49.451Z",
     "lastsaved": "2026-09-30T21:03:47.453Z",
-    "slotIndex": 1
+    "slotIndex": 1,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-04-September/Version-03/code-01.png"
+    ]
   },
   {
     "month": "September",
     "version": 3,
-    "file": "Code/SPIKE Prime/ACTU-04-September/Version-03/minimal-adjustment.llsp3",
     "type": "word-blocks",
     "name": "funciona yay - ajuste minimo",
     "created": "2026-10-02T14:50:53.444Z",
     "lastsaved": "2026-10-02T14:55:55.799Z",
-    "slotIndex": 1
+    "slotIndex": 1,
+    "source_project": "minimal-adjustment.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-04-September/Version-03/code-01.png"
+    ]
   },
   {
     "month": "September",
     "version": 3,
-    "file": "Code/SPIKE Prime/ACTU-04-September/Version-03/non-accumulating-90-degree-turns.llsp3",
     "type": "word-blocks",
     "name": "funciona yay - giros 90 sin acumular",
     "created": "2026-10-02T15:17:33.525Z",
     "lastsaved": "2026-10-02T21:50:05.038Z",
-    "slotIndex": 1
+    "slotIndex": 1,
+    "source_project": "non-accumulating-90-degree-turns.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-04-September/Version-03/code-01.png"
+    ]
   },
   {
     "month": "September",
     "version": 3,
-    "file": "Code/SPIKE Prime/ACTU-04-September/Version-03/original-without-loop.llsp3",
     "type": "word-blocks",
     "name": "funciona yay - original sin bucle",
     "created": "2026-10-02T15:07:23.481Z",
     "lastsaved": "2026-10-02T15:08:25.285Z",
-    "slotIndex": 1
+    "slotIndex": 1,
+    "source_project": "original-without-loop.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-04-September/Version-03/code-01.png"
+    ]
   },
   {
     "month": "September",
     "version": 4,
-    "file": "Code/SPIKE Prime/ACTU-04-September/Version-04/program.llsp3",
     "type": "word-blocks",
     "name": "funciona yay - backup (#4)",
     "created": "2026-05-01T12:36:49.451Z",
     "lastsaved": "2026-10-01T00:40:41.177Z",
-    "slotIndex": 0
+    "slotIndex": 0,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-04-September/Version-04/code-01.png"
+    ]
   },
   {
     "month": "September",
     "version": 5,
-    "file": "Code/SPIKE Prime/ACTU-04-September/Version-05/program.llsp3",
     "type": "word-blocks",
     "name": "funciona yay (#5)",
     "created": "2026-05-01T12:36:49.451Z",
     "lastsaved": "2026-10-01T00:39:27.894Z",
-    "slotIndex": 0
+    "slotIndex": 0,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-04-September/Version-05/code-01.png"
+    ]
   },
   {
     "month": "September",
     "version": 6,
-    "file": "Code/SPIKE Prime/ACTU-04-September/Version-06/program.llsp3",
     "type": "word-blocks",
     "name": "funciona yay - original sin bucle",
     "created": "2026-10-02T15:07:23.481Z",
     "lastsaved": "2026-10-02T22:09:28.463Z",
-    "slotIndex": 1
+    "slotIndex": 1,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-04-September/Version-06/code-01.png"
+    ]
   },
   {
     "month": "September",
     "version": 7,
-    "file": "Code/SPIKE Prime/ACTU-04-September/Version-07/program.llsp3",
     "type": "word-blocks",
     "name": "funciona yay - ajuste minimo",
     "created": "2026-10-02T14:50:53.444Z",
     "lastsaved": "2026-10-02T22:07:50.275Z",
-    "slotIndex": 1
+    "slotIndex": 1,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-04-September/Version-07/code-01.png"
+    ]
   },
   {
     "month": "September",
     "version": 8,
-    "file": "Code/SPIKE Prime/ACTU-04-September/Version-08/program.llsp3",
     "type": "word-blocks",
     "name": "funciona yay - giros 90 sin acumular",
     "created": "2026-10-02T15:17:33.525Z",
     "lastsaved": "2026-10-02T21:50:02.780Z",
-    "slotIndex": 1
+    "slotIndex": 1,
+    "source_project": "program.llsp3",
+    "publication": "screenshots-only",
+    "screenshots": [
+      "Code/SPIKE Prime/ACTU-04-September/Version-08/code-01.png"
+    ]
   }
 ]

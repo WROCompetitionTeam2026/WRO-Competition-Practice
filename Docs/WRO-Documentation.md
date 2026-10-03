@@ -1,81 +1,79 @@
-# WRO Future Engineers / documentation requirements
+# WRO Future Engineers / requisitos de documentación
 
-**Basis:** international 2026 General & Game Rules, chapter 7 and appendix C; the separate Documentation Rubric; official Q&A reviewed on 3 October 2026. National events may apply their organiser's adaptations.
+**Referencias:** reglas internacionales de 2026, capítulo 7 y apéndice C; rúbrica de documentación; preguntas y respuestas oficiales revisadas el 3 de octubre de 2026. Para un evento en Puerto Rico, hay que seguir las instrucciones del organizador local.
 
-## Official references
+## Documentos oficiales
 
-- [2026 season documents](https://wro-association.org/competition/2026-season/)
-- [Future Engineers General & Game Rules](https://wro-association.org/wp-content/uploads/WRO-2026-Future-Engineers-Self-Driving-Cars-General-Rules.pdf)
-- [Documentation Rubric](https://wro-association.org/wp-content/uploads/WRO-2026-Future-Engineers-Documentation-Rubric.pdf)
-- [Official Q&A](https://wro-association.org/competition/questions-answers/)
-- [Official repository template](https://github.com/World-Robot-Olympiad-Association/wro2022-fe-template)
+- [Temporada WRO 2026](https://wro-association.org/competition/2026-season/)
+- [Reglas de Future Engineers](https://wro-association.org/wp-content/uploads/WRO-2026-Future-Engineers-Self-Driving-Cars-General-Rules.pdf)
+- [Rúbrica de documentación](https://wro-association.org/wp-content/uploads/WRO-2026-Future-Engineers-Documentation-Rubric.pdf)
+- [Preguntas y respuestas oficiales](https://wro-association.org/competition/questions-answers/)
+- [Plantilla oficial del repositorio](https://github.com/World-Robot-Olympiad-Association/wro2022-fe-template)
 
-## Template cross-reference
+## Relación con la plantilla
 
-The official template's folder names are an example organisation. This repository uses the team's requested presentation while exposing the corresponding material:
-
-| Template section | Repository location |
+| Sección de la plantilla | Ubicación en este repositorio |
 |---|---|
-| `src` | [Code](../Code/README.md) |
-| `schemes` | [Electronics / Diagrams](../Electronics/README.md) |
-| `v-photos` | [Mechanics / Vehicle Photos](../Mechanics/Vehicle%20Photos/README.md) |
-| `t-photos` | [General Photos / Team](../General%20Photos/README.md) |
-| `video` | [video / video.md](../video/video.md) |
-| `models` | [Mechanics / 3D Models](../Mechanics/3D%20Models/README.md) |
-| `other` | [Docs](README.md) and [archive](../archive/README.md) |
+| `src` | [Capturas de programación](../Code/README.md) |
+| `schemes` | [Electrónica y diagrama](../Electronics/README.md) |
+| `v-photos` | [Las seis vistas del carro](../Mechanics/Vehicle%20Photos/README.md) |
+| `t-photos` | [Fotos del equipo](../General%20Photos/README.md) |
+| `video` | [Videos](../video/video.md) |
+| `models` | [Modelos 3D](../Mechanics/3D%20Models/README.md) |
+| `other` | [Documentación](README.md) y [archivo histórico](../archive/README.md) |
 
-## Submission requirements and available evidence
+Los nombres de la plantilla son una referencia para organizar el material. La organización del repositorio permite encontrar las secciones correspondientes sin duplicar las fotos.
 
-| Requirement | Evidence / remaining action |
+## Estado de la documentación
+
+| Requisito internacional | Estado actual |
 |---|---|
-| Public GitHub repository | Existing public repository; retain public visibility after submission |
-| English README of at least 5,000 characters explaining the solution and upload process | [Root README](../README.md); length checked by the repository verification tool |
-| Mobility, power/sensing and obstacle-management explanation | Source-based explanations in README, Code, Electronics, Mechanics and the English journal |
-| Code for every programmed component | Original SPIKE projects and readable Python/block-source exports; team must identify the program actually used at the event |
-| Vehicle photographs from all six sides | [Six supplied views](../Mechanics/Vehicle%20Photos/README.md); confirm they show the post-modification competition build |
-| Team photograph | Supplied event photographs; confirm/add a portrait showing all three students |
-| YouTube demonstration for each challenge, public or unlisted, with at least 30 seconds of autonomous driving | Original MP4 practice clips imported; **two qualifying YouTube URLs still required** |
-| Engineering journal and hardcopy at the international final | [English PDF](Engineering-Journal.pdf) and corrected Spanish source available; bring an English hardcopy with readable code/screenshots |
-| CAD/manufacturing files when applicable | No such source files supplied; applicability statement in the models section |
-| Reproducible electromechanical documentation | Source-derived logical diagram supplied; final physical connections, measurements, gear ratio, parts list and power-budget details require team input |
+| Repositorio público | El repositorio está publicado; debe mantener la visibilidad durante el período requerido |
+| README en inglés de por lo menos 5,000 caracteres | La presentación actual está en **español**, por petición del equipo. Tiene más de 5,000 caracteres, pero no cumple el requisito internacional de idioma |
+| Explicación de movilidad, energía, sensores y obstáculos | Disponible en las secciones técnicas y en la libreta |
+| Código de todos los componentes programados | Se publican **capturas solamente**. Los programas editables y las exportaciones quedan locales; esta publicación no sustituye la entrega internacional del código de control |
+| Fotos de las seis vistas del carro | Disponibles; confirmar que representan el montaje después de los últimos cambios |
+| Foto del equipo | Hay fotos de eventos; falta confirmar una que muestre a los tres estudiantes |
+| Un video de YouTube por reto con al menos 30 segundos de conducción autónoma | Los clips originales están publicados; faltan los dos enlaces correspondientes |
+| Libreta y copia impresa para la final internacional | La libreta y el PDF están en español. La final internacional solicita documentación en inglés |
+| Archivos de fabricación, cuando apliquen | No se recibieron modelos de este tipo; la carpeta contiene una explicación |
+| Información suficiente para reproducir el montaje | Hay fotos y conexiones de referencia; faltan medidas, piezas, relación de engranajes, consumo y código publicable |
 
-This organisation does not establish complete competition compliance by itself. Missing measurements, videos and final-program evidence are identified rather than invented.
+Esta tabla presenta el estado real del material disponible. La presentación en español y la publicación de capturas responden a las instrucciones del equipo; los requisitos internacionales se mantienen como referencia aparte.
 
-## Commit and visibility deadlines
+## Plazos de commits y visibilidad
 
-Chapter 7 requires:
+El capítulo 7 solicita:
 
-1. A first commit no later than **two months before the competition**, containing at least **one fifth of the final code amount**.
-2. A second commit no later than **one month before the competition**.
-3. A third commit no later than **two weeks before the competition**. This is the main evaluation snapshot; later changes may not count towards documentation scoring.
-4. Submission of the repository URL no later than **three weeks before the competition**, according to the organiser's exact date/time.
-5. Public repository access from submission through at least **twelve months after the competition**.
+1. Un primer commit por lo menos **dos meses antes de la competencia**, con al menos **una quinta parte de la cantidad final de código**.
+2. Un segundo commit por lo menos **un mes antes**.
+3. Un tercer commit por lo menos **dos semanas antes**. Esa versión es la referencia principal para evaluar la documentación.
+4. Entregar el enlace del repositorio por lo menos **tres semanas antes**, conforme a la fecha y hora establecidas por el organizador.
+5. Mantener el repositorio público desde la entrega hasta por lo menos **doce meses después de la competencia**.
 
-The original repository has ten commits dated 26–30 April 2026 before this refresh. Their history is retained. The event date and submitted evaluation snapshot were not supplied, so the deadline and one-fifth-of-code conditions cannot be marked as verified. Importing old files today does not create evidence of an earlier GitHub publication. Do not backdate or manufacture commits to simulate those milestones.
+El historial original contiene diez commits del 26–30 de abril de 2026. La fecha del evento y la versión entregada para evaluación no se incluyeron en el material, así que esos plazos no se presentan como verificados. Las fechas de las carpetas y de guardado de los programas son distintas a las fechas reales de publicación.
 
-## Rubric navigation
+## Los cinco criterios de la rúbrica
 
-Each criterion is scored 0, 2, 4 or 6; the documentation maximum is **30 points**.
+Cada criterio se evalúa con 0, 2, 4 o 6 puntos, para un máximo de **30 puntos de documentación**.
 
-| Criterion | Evidence location |
+| Criterio | Evidencia disponible |
 |---|---|
-| Mobility and mechanical design | [Mechanics](../Mechanics/README.md), six views and notebook entries |
-| Power and sensor architecture | [Electronics](../Electronics/README.md), logical diagram and sensor history |
-| Software architecture and obstacle strategy | [Code](../Code/README.md), original source listings and control-flow diagram |
-| Systems thinking and engineering decisions | [Journal](Engineering-Journal.md): sensor limitations, prototype changes, event feedback and reinforcement motivations |
-| Reproducibility and GitHub quality | README, original source files, inventories, meaningful history and verification tool |
+| Movilidad y diseño mecánico | [Mecánica](../Mechanics/README.md), seis vistas y registros del montaje |
+| Arquitectura de energía y sensores | [Electrónica](../Electronics/README.md), conexiones e historia de los sensores |
+| Programación y estrategia de obstáculos | [Capturas](../Code/README.md), explicaciones y diagrama de flujo |
+| Decisiones de ingeniería y funcionamiento del sistema | [Libreta](Engineering-Journal.md): prototipos, limitaciones de sensores y motivos de los cambios |
+| Reproducibilidad y calidad del repositorio | README, galerías, inventarios e historial; publicación del código pendiente |
 
-The rubric evaluates evidence, engineering reasoning, testing and reproducibility. A polished layout cannot substitute for absent performance data. The journal reports the team's original decisions and observations without introducing torque, current, speed or success-rate measurements that were never supplied.
+La rúbrica considera el razonamiento, las pruebas y la posibilidad de reproducir el proyecto. Los resultados publicados son los que ya registró el equipo; no se añadieron mediciones de torque, corriente, velocidad ni porcentajes de éxito.
 
-## Program/build details to reconcile with the rules
+## Detalles del carro y del programa
 
-These points follow directly from the supplied source and the official rules:
+- Las reglas 11.3–11.5 piden cuatro ruedas, un sistema de tracción conectado y un actuador de dirección. El prototipo de tres ruedas corresponde a una etapa de pruebas.
+- La regla 9.11 indica el procedimiento de espera y botón de inicio, y el uso del espacio uno en SPIKE. Los programas recientes revisados comienzan el avance en su evento de inicio.
+- Las versiones #6/#7/#8 utilizan distancia y yaw. No muestran por sí solas una tarea completa de pilares rojo/derecha y verde/izquierda, tres vueltas y estacionamiento.
+- Las medidas, la masa y la configuración final deben confirmarse en el carro que se use en la pista.
 
-- Rules 11.3–11.5 require four wheels, a connected drive arrangement and a steering actuator; the three-wheel historical prototype is not the international vehicle configuration.
-- Rule 9.11 requires the prescribed waiting-state/start-button procedure and slot one for SPIKE. The recent supplied programs start propulsion on their program-start event; a separate waiting state is not shown.
-- Recent #6/#7/#8 snapshots use distance sensing and yaw. They do not show complete red/right and green/left traffic-sign obedience, three-lap completion/finish logic or a full parking sequence.
-- Exact vehicle size and mass, final gear arrangement and measured performance require confirmation on the selected robot.
+Las preguntas y respuestas oficiales también aclaran la medición del estacionamiento, el tamaño del carro, la orientación al estacionarse y la evaluación cuando las ruedas tienen distintos anchos. Consulta las referencias antes del evento.
 
-The official Q&A additionally clarifies parking measurement near the mat, unchanged vehicle size while leaving/entering the parking area, permission to park in the opposite orientation and assessment of unequal wheel track widths. Read the linked live Q&A before the event.
-
-[Repository home](../README.md)
+[Volver al inicio](../README.md)

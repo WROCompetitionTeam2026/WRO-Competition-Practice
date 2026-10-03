@@ -1,11 +1,23 @@
-# ACTU 01 April
+# ACTU 01 / Abril
 
-Original April 2026 project group. Source folder numbering is retained.
-Project save timestamps may be later than the month label; see the metadata files.
+Capturas originales de los programas del grupo de abril.
+La numeración corresponde a las versiones que entregó el equipo.
 
-| Version | Original project | Type | Last saved (UTC) |
-|---|---|---|---|
-| 01 | [program](Version-01/program.llsp3) | word-blocks | 2026-10-01T00:08:51.284Z |
-| 02 | [program](Version-02/program.llsp3) | word-blocks | 2026-10-01T00:09:42.295Z |
+Los proyectos editables y las exportaciones de código quedan localmente.
+Las fechas de las carpetas y las de guardado se registran por separado en el inventario.
 
-[Software index](../README.md) · [Repository home](../../../README.md)
+| Versión | Capturas |
+|---|---|
+| 01 | [Imagen 1](Version-01/code-01.png) |
+| 02 | [Imagen 1](Version-02/code-01.png) |
+
+## Versión 01
+
+![Abril, versión 01, captura 1](Version-01/code-01.png)
+
+
+## Versión 02
+
+![Abril, versión 02, captura 1](Version-02/code-01.png)
+
+[Galería de programación](../README.md) · [Volver al inicio](../../../README.md)

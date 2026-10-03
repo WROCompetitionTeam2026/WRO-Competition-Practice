@@ -1,32 +1,26 @@
-# Repository tools
+# Herramientas del repositorio
 
-These Python 3 tools inspect documentation and export original source. They do not change the robot's control logic. Source export and verification need no third-party dependencies; optional PDF generation uses ReportLab.
+Estas herramientas revisan las galerías y la documentación, y generan el PDF de la libreta. La verificación usa Python 3 y Git, sin paquetes adicionales. La generación del PDF utiliza ReportLab.
 
-## Export a SPIKE project
-
-```powershell
-python tools/export_spike.py "Code/SPIKE Prime/ACTU-04-September/Version-08/program.llsp3"
-```
-
-Exports the original Word Blocks graph and a readable stack listing, or the original Python when the container stores Python. Also exports original project metadata.
-
-## Verify the repository
+## Verificar el material publicado
 
 ```powershell
 python tools/verify_repository.py
 ```
 
-Checks local documentation links, the six vehicle photographs, original-file SHA-256 hashes, SPIKE archive integrity, source-export fidelity, JSON/SVG/Python syntax, normal GitHub file-size limits and preservation of the Word notebook's formatting/package parts.
+Revisa los enlaces, las fotos del carro, las capturas de los programas, las huellas de los archivos, la sintaxis de JSON/SVG/Python, los límites de tamaño y la conservación del formato de la libreta corregida.
 
-The same verification runs in GitHub Actions. Passing it means the material is internally consistent; it does not mean the vehicle has passed physical track tests or all WRO submission requirements.
+También comprueba que los proyectos editables y las exportaciones del código del robot no formen parte de los archivos publicados. Los originales locales ignorados por Git no se incluyen en esa revisión.
 
-## Rebuild the printable journal
+La misma verificación se ejecuta en GitHub Actions. Estas comprobaciones revisan los archivos; no certifican el desempeño del carro en la pista ni todos los requisitos de WRO.
+
+## Generar el PDF de la libreta
 
 ```powershell
 python -m pip install reportlab
 python tools/build_journal_pdf.py
 ```
 
-Creates `Docs/Engineering-Journal.pdf` from the English Markdown journal, with page numbers and online source links. The Word source remains a separate original document.
+Genera `Docs/Engineering-Journal.pdf` a partir de la libreta en español, con encabezados, enlaces y números de página. El documento original de Word se conserva por separado.
 
-[Documentation guide](../Docs/WRO-Documentation.md) · [Repository home](../README.md)
+[Requisitos de documentación](../Docs/WRO-Documentation.md) · [Volver al inicio](../README.md)

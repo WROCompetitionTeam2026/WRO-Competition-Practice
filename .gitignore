@@ -19,3 +19,12 @@ id_ed25519*
 
 # Local verification outputs
 verification-report.json
+
+# Robot programs stay local; publish their screenshots only.
+*.llsp3
+*.sb3
+*.blocks.json
+*.blocks.md
+*.metadata.json
+Code/**/*.py
+archive/**/*.py

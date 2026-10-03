@@ -1,7 +1,7 @@
-"""Create the printable journal from Docs/Engineering-Journal.md.
+"""Genera el PDF de la libreta desde Docs/Engineering-Journal.md.
 
-Optional dependency: python -m pip install reportlab
-Run from the repository root: python tools/build_journal_pdf.py
+Dependencia: python -m pip install reportlab
+Ejecutar desde el repositorio: python tools/build_journal_pdf.py
 """
 from pathlib import Path
 import html
@@ -17,14 +17,14 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / 'Docs/Engineering-Journal.md'
 OUTPUT = ROOT / 'Docs/Engineering-Journal.pdf'
 styles = getSampleStyleSheet()
-styles.add(ParagraphStyle('BodyERA', fontName='Helvetica', fontSize=10.2, leading=15, textColor=colors.HexColor('#263747'), spaceAfter=9))
+styles.add(ParagraphStyle('BodyERA', fontName='Helvetica', fontSize=10.2, leading=14, textColor=colors.HexColor('#263747'), spaceAfter=7))
 styles.add(ParagraphStyle('TitleERA', fontName='Helvetica-Bold', fontSize=29, leading=34, textColor=colors.HexColor('#0b1728'), spaceAfter=12))
 styles.add(ParagraphStyle('ChapterERA', fontName='Helvetica-Bold', fontSize=17, leading=23, textColor=colors.HexColor('#0e7490'), spaceBefore=18, spaceAfter=11, keepWithNext=True))
 styles.add(ParagraphStyle('EntryERA', fontName='Helvetica-Bold', fontSize=11.5, leading=16, textColor=colors.HexColor('#0b1728'), spaceBefore=9, spaceAfter=5, keepWithNext=True))
 styles.add(ParagraphStyle('CellERA', parent=styles['BodyERA'], fontSize=9, leading=13, spaceAfter=0))
 
 def inline(text):
-    text = text.replace('−', '-').replace('→', 'to')
+    text = text.replace('−', '-').replace('→', 'a')
     text = html.escape(text)
     def link(match):
         label, path = match.groups()
@@ -86,7 +86,7 @@ def page(canvas, doc):
     canvas.rect(0, height-48, width, 48, fill=1, stroke=0)
     canvas.setFont('Helvetica-Bold', 10)
     canvas.setFillColor(colors.white)
-    canvas.drawString(48, height-29, 'ERA  /  LOS 3 MOSQUETEROS')
+    canvas.drawString(48, height-29, 'ERA  /  STUDENT ENGINEERS')
     canvas.setFont('Helvetica', 9)
     canvas.setFillColor(colors.HexColor('#67e8f9'))
     canvas.drawRightString(width-48, height-29, 'WRO FUTURE ENGINEERS 2026')
@@ -94,12 +94,12 @@ def page(canvas, doc):
     canvas.line(48, 42, width-48, 42)
     canvas.setFont('Helvetica', 8)
     canvas.setFillColor(colors.HexColor('#64748b'))
-    canvas.drawString(48, 28, 'English presentation of the existing team notebook · 2 October 2026')
+    canvas.drawString(48, 28, 'Libreta de ingeniería · Student Engineers · Registros hasta el 2 de octubre de 2026')
     canvas.drawRightString(width-48, 28, str(doc.page))
     canvas.restoreState()
 
 document = SimpleDocTemplate(str(OUTPUT), pagesize=A4, rightMargin=50, leftMargin=50,
-                             topMargin=72, bottomMargin=60, title='ERA — Engineering Journal',
-                             author='Los 3 Mosqueteros', subject='English presentation of the supplied engineering notebook')
+                             topMargin=72, bottomMargin=60, title='ERA — Libreta de ingeniería',
+                             author='Student Engineers', subject='Libreta del equipo con correcciones de redacción y ortografía')
 document.build(story, onFirstPage=page, onLaterPages=page)
-print('Generated:', OUTPUT, OUTPUT.stat().st_size, 'bytes')
+print('PDF generado:', OUTPUT, OUTPUT.stat().st_size, 'bytes')

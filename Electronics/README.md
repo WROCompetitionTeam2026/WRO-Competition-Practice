@@ -1,36 +1,36 @@
-# Electronics / power and sensing
+# Electrónica / energía y sensores
 
-## Recent software connections
+## Conexiones de referencia
 
-![Hub connections](Diagrams/hub-connections.svg)
+![Conexiones del hub de ERA](Diagrams/hub-connections.svg)
 
-The diagram is based on the original September #6, #7 and #8 block sources. It represents the logical connections that these programs address, rather than a measured electrical circuit.
+Este diagrama se preparó a partir de las versiones recientes #6, #7 y #8. Representa los puertos utilizados por esos programas, no una medición del circuito eléctrico.
 
-| Connection | Function referenced in the recent programs |
+| Puerto o componente | Función en las versiones recientes |
 |---|---|
-| A | Distance sensor; lateral-clearance checks |
-| C | Distance sensor; event below 20 inches for a corner turn |
-| D | Propulsion motor |
-| E | Distance sensor; lateral-clearance checks |
-| F | Steering motor and absolute-position feedback |
-| Internal hub IMU | Yaw measurement |
+| A | Sensor de distancia para revisar el espacio lateral |
+| C | Sensor de distancia; evento por debajo de 20 pulgadas para el giro de esquina |
+| D | Motor de avance |
+| E | Sensor de distancia para revisar el espacio lateral |
+| F | Motor de dirección y lectura de su posición |
+| Sensor interno del hub | Medición de yaw, es decir, orientación del carro |
 
-The original #7 comment identifies A as the left-side sensor and E as the right-side sensor. Confirm that orientation on the selected physical build. The position and orientation of C are not independently established by the exported source. Port B is not referenced by these three snapshots.
+El comentario original de la versión #7 identifica A como el sensor izquierdo y E como el derecho. Hay que verificar esa orientación en el montaje que se vaya a usar. El programa no permite confirmar por sí solo la posición física de C. El puerto B no aparece utilizado en estas tres versiones.
 
-## Power
+## Alimentación
 
-The supplied photographs show a SPIKE hub and wired LEGO peripherals. The hub battery supplies the hub and its connected components. A measured power budget, current draw, runtime and battery-condition log were not provided, so this documentation does not assign numerical electrical specifications to the assembled vehicle.
+Las fotos muestran un hub SPIKE y componentes LEGO conectados por cable. La batería del hub alimenta el controlador y sus componentes. El material entregado no incluye mediciones de corriente, autonomía ni una tabla de consumo del montaje.
 
-The notebook records sensor replacements in August and reinforcement intended to reduce connection vibration on 1 October. These are the team's reported reliability changes. See [the journal](../Docs/Engineering-Journal.md) for the original sequence of events.
+La libreta registra el reemplazo de sensores en agosto y el trabajo de refuerzo de la estructura del 1 de octubre para reducir vibraciones en las conexiones. Estas son las mejoras de confiabilidad que reportó el equipo.
 
-## Historical colour-sensor work
+## El sensor de color en las versiones anteriores
 
-The April/May journal describes colour-sensor calibration, sensor repositioning and problems caused by a scratched sensor. The August Python prototype uses D for the colour sensor and C for distance, with motors on E/F. This is a different historical layout; see [the code guide](../Code/README.md).
+Durante abril y mayo trabajamos en la calibración y la posición del sensor de color. También documentamos las dificultades causadas por un sensor rayado. El prototipo Python de agosto utiliza D para color y C para distancia, con los motores en E/F.
 
-Colour sensing is not read by the recent #6/#7/#8 programs. An electronic diagram for those snapshots should therefore not imply that their distance-reading branches classify red and green traffic signs.
+Esa distribución histórica es distinta a la reciente. Las versiones #6/#7/#8 no leen el sensor de color, así que el diagrama no representa una rutina de clasificación de pilares rojos y verdes en esos programas.
 
-## Assembly reference
+## Referencias del montaje
 
-Use the [top and bottom vehicle views](../Mechanics/Vehicle%20Photos/README.md) and [mechanism detail photographs](../Mechanics/README.md) to inspect cable routing. Before reproducing a selected build, record its sensor heights/angles, hub firmware, battery specification, measured current draw and final port assignments.
+Consulta [las fotos de arriba y abajo](../Mechanics/Vehicle%20Photos/README.md) y [los detalles de los mecanismos](../Mechanics/README.md) para revisar la posición de los cables. Para reproducir el montaje hacen falta las alturas y los ángulos de los sensores, la versión del firmware, los datos de batería y las mediciones de consumo.
 
-[Repository home](../README.md)
+[Libreta de ingeniería](../Docs/Engineering-Journal.md) · [Volver al inicio](../README.md)

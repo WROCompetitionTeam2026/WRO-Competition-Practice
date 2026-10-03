@@ -1,4 +1,4 @@
-name: Verify engineering materials
+name: Verificar material de ingeniería
 
 on:
   push:
@@ -15,5 +15,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Verify links, original assets and SPIKE exports
+      - name: Verificar enlaces, fotos y documentación
         run: python tools/verify_repository.py

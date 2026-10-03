@@ -1,41 +1,41 @@
-# Team / workshop / events
-
-## Los 3 Mosqueteros
+# Student Engineers / fotos del equipo
 
 **Vocacional Manuel Méndez Liciaga · San Sebastián, Puerto Rico**
 
-| Student | Recorded role |
+| Integrante | Responsabilidad |
 |---|---|
-| Adrián Iván Jiménez González | Programming |
-| Carlos Elvin Cabán Martínez | Information and documentation |
-| Joniel Emanuel Torres Traverzo | Design |
+| Adrián Iván Jiménez González | Programación |
+| Carlos Elvin Cabán Martínez | Información y documentación |
+| Joniel Emanuel Torres Traverzo | Diseño |
 
-**Teacher / coach:** Javier González Hernández.
+**Maestro y mentor:** Javier González Hernández.
 
-### At the events
+## El equipo en las competencias
 
-![Team with robots at an event](Team/team-with-robots.png)
+![El equipo con los robots en un evento](Team/team-with-robots.png)
 
-| Team at the venue | At the workbench |
+| En el evento | En la mesa de trabajo |
 |---|---|
-| ![Team at event](Team/team-at-event.png) | ![Team at workbench](Team/team-at-workbench.png) |
+| ![Student Engineers en el evento](Team/team-at-event.png) | ![Integrantes en la mesa de trabajo](Team/team-at-workbench.png) |
 
-![Programming at the event](Team/programming-at-event.png)
+![Trabajo de programación durante el evento](Team/programming-at-event.png)
 
-These are the team's supplied event photographs. They are not labelled as a verified full-team portrait: the team should confirm or add a photograph showing all three student members for the international submission. Existing face masking in the supplied PNGs is preserved.
+Estas son las fotos de eventos que entregó el equipo. Para la documentación internacional, falta confirmar o añadir una foto donde aparezcan los tres estudiantes. Las imágenes que ya tenían rostros cubiertos se conservan con esa edición original.
 
-## Event gallery
+## Los eventos
 
-| Venue | Judging session |
+| Coliseíto Pedrín Zorrilla | Sesión con los jueces |
 |---|---|
-| ![Pedrín Zorrilla venue](Events/pedrin-zorrilla-venue.jpg) | ![Judging session](Events/judging-session.png) |
+| ![Entrada del Coliseíto Pedrín Zorrilla](Events/pedrin-zorrilla-venue.jpg) | ![Sesión de evaluación](Events/judging-session.png) |
 
-| Exhibition | Team at exhibition |
+| Exhibición | Equipo en la exhibición |
 |---|---|
-| ![Event exhibition](Events/event-exhibition.jpg) | ![Team at exhibition](Events/team-at-exhibition.jpg) |
+| ![Exhibición del evento](Events/event-exhibition.jpg) | ![Foto en la exhibición](Events/team-at-exhibition.jpg) |
 
-## Development gallery
+## Trabajo de documentación y montaje
 
-`Development/` contains the original April photographs of the documentation work. Vehicle assembly and sensor-positioning images are indexed under [Mechanics](../Mechanics/README.md). Files duplicated across the original folders are mapped to one gallery copy in [the import manifest](../Docs/import-manifest.json).
+En `Development/` se encuentran las fotos originales de abril relacionadas con la documentación. Las imágenes del carro, los sensores y los mecanismos están organizadas en [Mecánica](../Mechanics/README.md).
 
-[Journal](../Docs/Engineering-Journal.md) · [Repository home](../README.md)
+El [inventario de archivos](../Docs/import-manifest.json) relaciona las fotos publicadas con sus ubicaciones originales e identifica las copias repetidas.
+
+[Libreta](../Docs/Engineering-Journal.md) · [Volver al inicio](../README.md)

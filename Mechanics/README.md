@@ -1,46 +1,44 @@
-# Mechanics / ERA
+# Mecánica / el carro ERA
 
-## Vehicle views
+## Fotos del robot
 
-[Six-view gallery](Vehicle%20Photos/README.md): front, rear, left, right, top and bottom.
+[Ver las seis vistas](Vehicle%20Photos/README.md): frente, atrás, izquierda, derecha, arriba y abajo.
 
-![Side view of ERA](Vehicle%20Photos/right.jpg)
+![ERA visto desde el lado derecho](Vehicle%20Photos/right.jpg)
 
-## Development recorded by the team
+## Cómo fue cambiando el montaje
 
-The notebook's original concept was a compact four-wheel car with a Formula 1-inspired layout, intended to leave room for the motors and sensors. In April, a three-wheel prototype was used to simplify sensor testing. The supplied six-view set shows a four-wheel assembly.
+El concepto inicial fue un carro compacto de cuatro ruedas, inspirado en la distribución de un Fórmula 1 y con espacio para los motores y sensores. En abril usamos un prototipo de tres ruedas para simplificar las pruebas. El conjunto de fotos posterior muestra un montaje de cuatro ruedas.
 
-The updated notebook records the following mechanical work:
-
-| Date | Reported work |
+| Fecha | Trabajo registrado por el equipo |
 |---|---|
-| 30 March–2 April | Compact structural redesign for workshop testing |
-| 8 April | Repositioned motors and a temporary three-wheel sensor-testing prototype |
-| 23 April | Front-structure changes to improve the downward-facing colour sensor's operation |
-| 29 September | Planned sensor repositioning, rear-axle mechanism and additional LEGO gearing |
-| 30 September | Structural reinforcement reported as completed |
-| 1 October | Further changes intended to reduce vibration in connections and maintain a straighter trajectory |
+| 30 de marzo–2 de abril | Rediseño compacto para las pruebas del taller |
+| 8 de abril | Reposición de motores y prototipo temporal de tres ruedas para probar sensores |
+| 23 de abril | Cambios en la parte frontal para mejorar el sensor de color orientado al piso |
+| 29 de septiembre | Plan de reposicionar sensores, agregar un mecanismo de eje trasero y trabajar con más engranajes |
+| 30 de septiembre | Refuerzo de la estructura reportado como completado |
+| 1 de octubre | Nuevos ajustes para reducir vibraciones en las conexiones y mantener una trayectoria más recta |
 
-These entries describe the team's work and motivations. They do not supply a measured torque/speed comparison, gear ratio or vibration reduction percentage.
+Estos registros presentan el trabajo y las razones que anotó el equipo. No incluyen una medición de torque, relación de engranajes ni porcentaje de reducción de vibraciones.
 
-## Mechanism details
+## Detalles de los mecanismos
 
-| Rear-drive detail | Underside detail |
+| Mecanismo trasero | Parte inferior |
 |---|---|
-| ![Rear-drive mechanism](Development/rear-drive-detail.png) | ![Underside mechanism](Development/underside-detail.png) |
+| ![Detalle del mecanismo trasero](Development/rear-drive-detail.png) | ![Detalle de la parte inferior](Development/underside-detail.png) |
 
-![Steering and motor detail](Development/steering-and-motor-detail.png)
+![Detalle de la dirección y el motor](Development/steering-and-motor-detail.png)
 
-Additional original photographs in `Development/` retain their date-based source names. The IMG_20260929 photographs document the vehicle around the late-September changes. The supplied six-view set should be confirmed against the assembly used after the 1–2 October modifications.
+En `Development/` están las demás fotos originales. Las imágenes con nombres que comienzan con `IMG_20260929` documentan el carro durante los cambios de finales de septiembre. El equipo debe confirmar que las seis vistas corresponden al montaje usado después de las modificaciones del 1–2 de octubre.
 
-## Reproduction information
+## Datos para reproducir el carro
 
-Recent software addresses D as the propulsion motor and F as the steering actuator. Reproduction also requires the physical axle/gearing configuration, steering-centre alignment, wheelbase, track width, wheel diameter, overall dimensions, mass and a parts list. Those measured details were not supplied.
+Los programas recientes utilizan D para el avance y F para la dirección. Para reproducir exactamente el montaje también hacen falta la configuración del eje, los engranajes, el centrado de la dirección, la distancia entre ejes, el ancho entre ruedas, el diámetro de las ruedas, las dimensiones, la masa y la lista de piezas.
 
-For international participation, rules 11.1–11.5 require a four-wheel vehicle with a driving axle and steering actuator, within 300 × 200 × 300 mm and 1.5 kg. Independently driving the left and right wheels as a differential-drive base is not permitted. The archived three-wheel prototype documents a development stage and is not the international submission configuration. The connected driving axle must be checked on the actual chosen assembly.
+Las reglas internacionales 11.1–11.5 solicitan un carro de cuatro ruedas, con eje de tracción y actuador de dirección, dentro de 300 × 200 × 300 mm y 1.5 kg. No permiten mover las ruedas izquierda y derecha de manera independiente como una base de tracción diferencial. El prototipo de tres ruedas corresponde a una etapa de prueba del proyecto.
 
-## Model files
+## Modelos de construcción
 
-[3D Models](3D%20Models/README.md) records the status of CAD and manufacturing files. No model files were present in the supplied folder; photographs are not labelled as CAD.
+En [Modelos 3D](3D%20Models/README.md) se indica qué archivos de diseño se recibieron. Las fotos de montaje se presentan como fotos, no como modelos CAD.
 
-[Journal](../Docs/Engineering-Journal.md) · [Repository home](../README.md)
+[Libreta](../Docs/Engineering-Journal.md) · [Volver al inicio](../README.md)

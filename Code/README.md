@@ -1,85 +1,48 @@
-# Code / SPIKE Prime
+# Programación / capturas de los programas
 
-Original control software for ERA, grouped by the team's four update periods.
+Aquí está la documentación visual de los programas de ERA. **Publicamos solamente las capturas**; los proyectos editables de SPIKE y las exportaciones de código quedan en la PC del equipo.
 
-| Update | Contents |
+| Actualización | Galería |
 |---|---|
-| [ACTU 01 · April](SPIKE%20Prime/ACTU-01-April/README.md) | Two initial Word Blocks versions |
-| [ACTU 02 · May](SPIKE%20Prime/ACTU-02-May/README.md) | Three projects, including clockwise and parking-named experiments |
-| [ACTU 03 · August](SPIKE%20Prime/ACTU-03-August/README.md) | One Python prototype and three Word Blocks projects |
-| [ACTU 04 · September](SPIKE%20Prime/ACTU-04-September/README.md) | Eight numbered versions and three additional variants inside Version 03 |
+| [ACTU 01 · Abril](SPIKE%20Prime/ACTU-01-April/README.md) | Versiones 01–02 |
+| [ACTU 02 · Mayo](SPIKE%20Prime/ACTU-02-May/README.md) | Versiones 01–03, incluyendo el experimento relacionado con estacionamiento |
+| [ACTU 03 · Agosto](SPIKE%20Prime/ACTU-03-August/README.md) | Versiones 01–04; la versión 01 incluye once capturas de Python |
+| [ACTU 04 · Septiembre](SPIKE%20Prime/ACTU-04-September/README.md) | Versiones 01–08; mostramos las recientes #6, #7 y #8 juntas |
 
-There are **20 supplied `.llsp3` projects**. The original filenames and locations are recorded in [the import manifest](../Docs/import-manifest.json). The project metadata is recorded in [the version inventory](../Docs/software-versions.json). Folder months are source labels, not inferred commit dates.
+El equipo entregó 20 proyectos de origen, contando las variantes. Sus nombres y fechas de guardado están en [el inventario de versiones](../Docs/software-versions.json). Las carpetas corresponden a los grupos originales de trabajo; no representan fechas de publicación en GitHub.
 
-## Recent snapshots: #6, #7 and #8
+## Septiembre #6
 
-All three are presented together at the team's request. Open the original project to upload it, or read the text export and screenshot to review it:
+Esta versión utiliza giros activados por distancia y reinicia el yaw después de la esquina. El programa original identifica D como motor de avance, F como motor de dirección y A/C/E para distancia.
 
-| Snapshot | Editable project | Readable blocks | Screenshot |
-|---|---|---|---|
-| #6 | [program.llsp3](SPIKE%20Prime/ACTU-04-September/Version-06/program.llsp3) | [Source listing](SPIKE%20Prime/ACTU-04-September/Version-06/program.blocks.md) | [View](SPIKE%20Prime/ACTU-04-September/Version-06/code-01.png) |
-| #7 | [program.llsp3](SPIKE%20Prime/ACTU-04-September/Version-07/program.llsp3) | [Source listing](SPIKE%20Prime/ACTU-04-September/Version-07/program.blocks.md) | [View](SPIKE%20Prime/ACTU-04-September/Version-07/code-01.png) |
-| #8 | [program.llsp3](SPIKE%20Prime/ACTU-04-September/Version-08/program.llsp3) | [Source listing](SPIKE%20Prime/ACTU-04-September/Version-08/program.blocks.md) | [View](SPIKE%20Prime/ACTU-04-September/Version-08/code-01.png) |
+![Programa de septiembre, versión 06](SPIKE%20Prime/ACTU-04-September/Version-06/code-01.png)
 
-### What the source implements
+## Septiembre #7
 
-These snapshots use a main program-start stack, a C-distance event and three named procedures. They reference motor D for propulsion, motor F for steering, distance sensors A/C/E and the hub's yaw sensor.
+La variable `Count` coordina los giros y el avance en línea recta. Utiliza márgenes laterales de 6/7 pulgadas y ajustes propios para la dirección y la corrección de orientación.
 
-| Element | Original behaviour |
-|---|---|
-| Program-start stack | Initializes the version's variables/yaw, starts D and calls `Steering`; then enters a continuous main loop |
-| Main loop | Checks A and E and makes short steering reactions when the distance threshold is crossed |
-| C-distance event | Initiates the supplied corner-turn sequence at a reading below 20 inches |
-| `Steering` | Centres F using absolute-position intervals 146–359° and 1–145° |
-| `yaw` | Uses heading feedback to issue a correction to F; implementation differs between versions |
-| `PAOA` | Defined alternative routine using A below 1 inch and a positive yaw window; not called by the main/C-event stacks in these snapshots |
+![Programa de septiembre, versión 07](SPIKE%20Prime/ACTU-04-September/Version-07/code-01.png)
 
-Distance thresholds are explicitly in **inches** in the block source. Four inches equals 101.6 mm; six inches equals 152.4 mm; seven inches equals 177.8 mm; twenty inches equals 508 mm. These conversions explain the source values and are not new calibrated thresholds.
+## Septiembre #8
 
-### Version comparison
+La variable `AJJHHJ` guarda referencias para giros sucesivos de 90°. El comentario original describe objetivos de −90°, −180°, +90° y 0°.
 
-- **#6:** D's original speed block stores `200`. A/E reactions use 4-inch thresholds and 25° steering-motor commands. The C event turns F counterclockwise for 90°, waits for yaw between −90° and −86°, resets yaw and recentres steering. The speed value is preserved as supplied; it is not a measured vehicle speed or a claim that the application accepts 200%.
-- **#7:** D is set to `100`, F to `90`. `Count = 0` represents straight-driving work; `Count = 1` marks a turn in progress. A/E use a 6-inch trigger and a 7-inch clearance threshold. The main loop calls `yaw` and waits 0.02 seconds. The original source comment describes coordination to prevent the stacks from interfering with each other.
-- **#8:** `AJJHHJ` becomes a heading target. The corner event updates it as `((target - 90 + 180) mod 360) - 180`. Heading error is `((yaw - target + 180) mod 360) - 180`. D is stopped while `Steering` centres F, then restarted. The supplied wait condition checks signed error `< 0.5`; it is not an absolute-error check. The original comment asks for track testing, because gyro and braking affect physical precision.
+![Programa de septiembre, versión 08](SPIKE%20Prime/ACTU-04-September/Version-08/code-01.png)
 
-The three sources do not show a completed automatic direction-selection routine, colour-specific red/green pillar obedience, a three-lap counter with autonomous finish, or a complete parallel-parking sequence. The journal describes those development goals and experiments. A project named for parking is evidence of an experiment, not proof that every recent snapshot performs parking.
+## Organización del programa
 
-## Historical Python project
+Las explicaciones se prepararon a partir de los archivos locales del equipo. Las versiones recientes contienen un evento de inicio, un evento de distancia en C y las rutinas `Steering`, `yaw` y `PAOA`. `Steering` centra la dirección y `yaw` aplica correcciones de orientación. `PAOA` aparece definida, pero no se llama desde los eventos principales de esas versiones.
 
-[ACTU 03 / Version 01](SPIKE%20Prime/ACTU-03-August/Version-01/WRO-Revamp-2026.llsp3) contains genuine Python source:
+El trabajo de colores, selección automática de sentido, vueltas y estacionamiento se describe en [la libreta](../Docs/Engineering-Journal.md). Las capturas recientes, por sí solas, no demuestran un recorrido completo de ambos retos. La evidencia debe corresponder a la versión usada en la pista.
 
-- [Original extracted Python](SPIKE%20Prime/ACTU-03-August/Version-01/WRO-Revamp-2026.py)
-- [Project metadata](SPIKE%20Prime/ACTU-03-August/Version-01/WRO-Revamp-2026.metadata.json)
+## El prototipo de Python
 
-It imports SPIKE modules such as `color_sensor`, `distance_sensor`, `motor`, `runloop` and `hub`. Those modules run on the hub, not in desktop CPython. Its historical port assignments are E/F for the two motor channels, D for colour and C for distance. Those assignments must not be used to wire the recent D-propulsion/F-steering programs.
+La [actualización de agosto](SPIKE%20Prime/ACTU-03-August/README.md) contiene once capturas del prototipo Python de la versión 01. Ese programa histórico utiliza E/F para los motores, D para el sensor de color y C para distancia. Es una configuración distinta a la de los programas recientes.
 
-The Python prototype includes colour/reflection guards, timed motor arcs, yaw helpers and distance averaging. Some obstacle-related constants and helpers are defined but not invoked by `main()`. The presence of those definitions alone does not demonstrate an active obstacle routine. It is preserved as a historical prototype.
+## Para trabajar con el carro
 
-## Opening and uploading
+Identifica la versión en las capturas y abre su proyecto **local** en la aplicación oficial de SPIKE. Las fotos sirven para consultar y documentar el programa, pero no se pueden descargar al hub como código ejecutable.
 
-1. Install the [official SPIKE app](https://education.lego.com/en-us/downloads/spike-app/software/).
-2. Open a chosen original `.llsp3` file.
-3. Compare all port assignments and mechanical motor directions with the selected vehicle.
-4. Use USB to download to the hub. For an international event, verify the actual **slot one** requirement and the waiting-state/start-button procedure in rule 9.11.
-5. Test during permitted practice time and record the chosen version. Exact tested app/firmware versions and final run evidence are not included in the supplied files.
+La documentación internacional de WRO también solicita el código de control. La publicación actual de capturas no sustituye ese requisito; [su estado está explicado aquí](../Docs/WRO-Documentation.md).
 
-## Export format
-
-| File | Purpose |
-|---|---|
-| `.llsp3` | Original LEGO project; authoritative editable source |
-| `.blocks.json` | Full original Scratch-style project graph extracted from the container |
-| `.blocks.md` | Review listing preserving event stacks, nesting, opcodes, units and procedure names |
-| `.py` | Python extracted only when the original container actually stores Python |
-| `.metadata.json` | Original format, project name, creation/save timestamps and slot index |
-| `code-*.png` | Supplied program screenshots |
-
-Regenerate an export with Python 3, without third-party packages:
-
-```powershell
-python tools/export_spike.py "Code/SPIKE Prime/ACTU-04-September/Version-08/program.llsp3"
-```
-
-This tool exports source for inspection; it does not alter the control program.
-
-[Repository home](../README.md)
+[Volver al inicio](../README.md)

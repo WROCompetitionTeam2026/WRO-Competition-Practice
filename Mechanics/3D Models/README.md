@@ -1,7 +1,7 @@
-# 3D models / manufacturing files
+# Modelos 3D / archivos de construcción
 
-No CAD, STL, STEP, LEGO Studio or other manufacturing-model files were included in the supplied material. The vehicle is documented through its photographs and the team's engineering notebook.
+El material entregado no contiene archivos CAD, STL, STEP, LEGO Studio ni otros modelos de fabricación. El carro está documentado mediante las fotos y la libreta de ingeniería.
 
-If the team has a LEGO assembly model or custom-manufactured components, add the actual source model, exported manufacturing file and assembly explanation here. Otherwise, retain this statement of applicability; an empty model folder is not evidence of a supplied design.
+Si el equipo dispone de un modelo de ensamblaje LEGO o de piezas fabricadas a medida, esta carpeta puede contener esos archivos y sus instrucciones. Por ahora, las imágenes del carro están en la sección de mecánica.
 
-[Mechanics](../README.md) · [Repository home](../../README.md)
+[Mecánica](../README.md) · [Volver al inicio](../../README.md)

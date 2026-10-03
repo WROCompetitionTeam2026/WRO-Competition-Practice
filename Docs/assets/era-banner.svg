@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1400" height="440" viewBox="0 0 1400 440" role="img" aria-labelledby="title desc">
-  <title id="title">ERA — Los 3 Mosqueteros — WRO Future Engineers 2026</title>
-  <desc id="desc">Dark navy engineering banner with cyan and magenta accents and an abstract autonomous-car track.</desc>
+  <title id="title">ERA — Student Engineers — WRO Future Engineers 2026</title>
+  <desc id="desc">Portada de ingeniería con fondo azul oscuro, detalles cian y magenta y una pista de carro autónomo.</desc>
   <defs>
     <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#07111f"/><stop offset="1" stop-color="#122941"/></linearGradient>
     <linearGradient id="accent"><stop stop-color="#22d3ee"/><stop offset="1" stop-color="#38bdf8"/></linearGradient>
@@ -11,10 +11,10 @@
   <path d="M0 405H1400" stroke="url(#accent)" stroke-width="4"/>
   <g font-family="Segoe UI,Arial,sans-serif">
     <rect x="64" y="46" width="245" height="32" rx="16" fill="#153646" stroke="#22d3ee" stroke-opacity=".45"/>
-    <text x="86" y="68" fill="#67e8f9" font-size="14" font-weight="700" letter-spacing="2">ENGINEERING PORTFOLIO</text>
+    <text x="80" y="68" fill="#67e8f9" font-size="12" font-weight="700" letter-spacing="1">PORTAFOLIO DE INGENIERÍA</text>
     <text x="59" y="220" font-size="152" font-weight="800" fill="#f8fafc" letter-spacing="8">ERA<tspan fill="#22d3ee">.</tspan></text>
-    <text x="66" y="267" fill="#e2e8f0" font-size="29" font-weight="600" letter-spacing="2">LOS 3 MOSQUETEROS</text>
-    <text x="67" y="306" fill="#8ca6bd" font-size="21">WRO Future Engineers · Autonomous vehicle · 2026</text>
+    <text x="66" y="267" fill="#e2e8f0" font-size="29" font-weight="600" letter-spacing="2">STUDENT ENGINEERS</text>
+    <text x="67" y="306" fill="#8ca6bd" font-size="21">WRO Future Engineers · Carro autónomo · 2026</text>
     <text x="67" y="366" fill="#8ca6bd" font-size="17">Manuel Méndez Liciaga · San Sebastián, Puerto Rico</text>
   </g>
   <g transform="translate(950 50)">
@@ -29,8 +29,8 @@
     <rect x="190" y="14" width="7" height="12" rx="2" fill="#64748b"/><rect x="190" y="43" width="7" height="12" rx="2" fill="#64748b"/>
     <rect x="275" y="123" width="17" height="23" rx="3" fill="#fb7185"/><rect x="47" y="190" width="17" height="23" rx="3" fill="#4ade80"/>
     <rect x="115" y="280" width="8" height="29" rx="2" fill="#e879f9"/><rect x="192" y="280" width="8" height="29" rx="2" fill="#e879f9"/>
-    <text x="165" y="150" text-anchor="middle" fill="#8ca6bd" font-family="Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="3">BUILD</text>
-    <text x="165" y="184" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="26" font-weight="700">TEST. REFINE.</text>
-    <text x="165" y="213" text-anchor="middle" fill="#8ca6bd" font-family="Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="3">REPEAT</text>
+    <text x="165" y="150" text-anchor="middle" fill="#8ca6bd" font-family="Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="2">CONSTRUIR</text>
+    <text x="165" y="184" text-anchor="middle" fill="#f8fafc" font-family="Segoe UI,Arial,sans-serif" font-size="20" font-weight="700">PROBAR. MEJORAR.</text>
+    <text x="165" y="213" text-anchor="middle" fill="#8ca6bd" font-family="Segoe UI,Arial,sans-serif" font-size="16" letter-spacing="3">REPETIR</text>
   </g>
 </svg>

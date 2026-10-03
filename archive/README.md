@@ -1,18 +1,21 @@
-# Development archive
+# Archivo histórico del proyecto
 
-## Pre-refresh repository
+## Documentación anterior
 
-`pre-refresh/` preserves the material that was already on GitHub before the October documentation refresh:
+`pre-refresh/` conserva los documentos que ya estaban en GitHub antes de esta reorganización:
 
-- [Original README](pre-refresh/README-original.md)
-- [Original notebook](pre-refresh/Future_Engineers_Notebook.docx)
-- [Original program](pre-refresh/Codigo/WRO-Revamp-2026.llsp3)
-- [Original software note](pre-refresh/Codigo/README.md)
+- [README anterior](pre-refresh/README-original.md)
+- [Libreta anterior](pre-refresh/Future_Engineers_Notebook.docx)
+- [Nota anterior de programación](pre-refresh/Codigo/README.md)
 
-These original Spanish documents describe the earlier prototype. They are historical evidence; the current English overview and updated notebook are linked from [the repository home](../README.md).
+Son documentos históricos y pueden reflejar descripciones o nombres anteriores. La presentación actual usa **Student Engineers** para el equipo y **ERA** para el robot.
 
-## Additional source material
+Los proyectos editables y las exportaciones de código quedan localmente. No forman parte del contenido actual publicado en esta carpeta.
 
-`additional-source-material/` contains unique supplementary assets from the supplied folders that were not already represented by the main import. All supplied non-temporary assets are accounted for in [the import manifest](../Docs/import-manifest.json), including paths of duplicate copies.
+## Material adicional
 
-The original Git history is retained. Folder labels and document dates are not used to fabricate older commits.
+`additional-source-material/` contiene archivos adicionales entregados por el equipo que no estaban representados en las galerías principales. El [inventario](../Docs/import-manifest.json) conserva la relación entre los archivos originales y sus ubicaciones publicadas.
+
+El historial real de Git se mantiene. Las fechas de los documentos no se utilizan para crear commits con fechas anteriores.
+
+[Volver al inicio](../README.md)

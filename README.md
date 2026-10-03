@@ -1,204 +1,201 @@
 <div align="center">
 
-![ERA engineering portfolio](Docs/assets/era-banner.svg)
+![ERA — Student Engineers](Docs/assets/era-banner.svg)
 
 # ERA · WRO Future Engineers 2026
 
-**Los 3 Mosqueteros**<br>
+**Student Engineers**<br>
 Vocacional Manuel Méndez Liciaga · San Sebastián, Puerto Rico
 
-**LEGO SPIKE Prime** · **Self-driving vehicle** · **Engineering journal**
+**LEGO SPIKE Prime** · **Carro autónomo** · **Libreta de ingeniería**
 
-[Software](Code/README.md) · [Electronics](Electronics/README.md) · [Mechanics](Mechanics/README.md) · [Team & gallery](General%20Photos/README.md) · [Journal](Docs/Engineering-Journal.md) · [Videos](video/video.md)
+[Programación](Code/README.md) · [Electrónica](Electronics/README.md) · [Mecánica](Mechanics/README.md) · [Fotos del equipo](General%20Photos/README.md) · [Libreta](Docs/Engineering-Journal.md) · [Videos](video/video.md)
 
 </div>
 
 ---
 
-## 01 / Meet ERA
+## 01 / Conoce a ERA
 
-ERA is our LEGO SPIKE Prime vehicle developed for the **WRO Future Engineers 2026 self-driving car challenge**. This repository brings together our original programs, engineering notebook, vehicle photographs and practice recordings. It follows the development of the project from the first workshop sessions in March to the structural and software revisions documented on **2 October 2026**.
+Somos **Student Engineers**, un equipo de la Vocacional Manuel Méndez Liciaga en San Sebastián, Puerto Rico. Este repositorio reúne el trabajo que hemos realizado con **ERA**, nuestro carro autónomo para WRO Future Engineers 2026: capturas de los programas, fotos del robot, evidencia de las prácticas y nuestra libreta de ingeniería.
 
-The name **ERA** represents the beginning of a new generation of robotic technology. In our notebook, the ultrasonic sensor's eye-like appearance and the vehicle's distinctive colours are described as a “canvas of innovation”: a representation of the effort, creativity and dedication of the team. The project combines mechanical construction, sensing and programming, with each iteration shaped by what we observed during practice and competition.
+Aquí se puede seguir el desarrollo desde las primeras sesiones de marzo hasta los cambios de estructura y programación registrados el **2 de octubre de 2026**. Organizamos el material para que sea fácil encontrar cada versión, ver cómo fue cambiando el carro y entender las decisiones que tomamos en el taller.
 
-Our original concept was a four-wheel car inspired by the accessible layout and appearance of a Formula 1 vehicle. We briefly used a three-wheel experimental chassis in April to test the sensors and software. The photographed vehicle is a four-wheel LEGO assembly. The late-September and October journal records work on chassis rigidity, sensor positioning, a rear-axle mechanism and gearing. Earlier prototypes are retained as development evidence rather than presented as the final configuration.
+El nombre **ERA** representa el comienzo de una nueva generación de tecnología robótica. Sus «ojos», formados por el sensor de ultrasonido, y sus colores llamativos nos inspiraron a describirlo como un «lienzo de innovación». Para nosotros, cada detalle del carro refleja el esfuerzo, la creatividad y el trabajo de los integrantes del equipo.
 
 <div align="center">
 
-<img src="Mechanics/Vehicle%20Photos/front.jpg" alt="ERA vehicle, supplied front view" width="720" />
+<img src="Mechanics/Vehicle%20Photos/front.jpg" alt="Vista frontal de ERA, el carro autónomo de Student Engineers" width="720" />
 
-*ERA — front view from the supplied vehicle-photo set.*
+*ERA — vista frontal del conjunto de fotos del robot.*
 
 </div>
 
-### The team
+### Nuestro equipo
 
-| Team member | Responsibility recorded in the notebook |
+| Integrante | Responsabilidad |
 |---|---|
-| Adrián Iván Jiménez González | Programming |
-| Carlos Elvin Cabán Martínez | Information and documentation |
-| Joniel Emanuel Torres Traverzo | Vehicle design |
-| Javier González Hernández | Teacher / coach |
+| Adrián Iván Jiménez González | Programación |
+| Carlos Elvin Cabán Martínez | Información y documentación |
+| Joniel Emanuel Torres Traverzo | Diseño del carro |
+| Javier González Hernández | Maestro y mentor |
 
-The three students represent Vocacional Manuel Méndez Liciaga in San Sebastián, Puerto Rico. The coach is listed separately from the student team. The team name **Los 3 Mosqueteros** comes from the original engineering notebook; ERA is the vehicle name recorded in the updated notebook.
+Los tres estudiantes representamos a la Vocacional Manuel Méndez Liciaga. Nuestro maestro nos acompaña como mentor y se presenta por separado del equipo estudiantil. **Student Engineers** es el nombre del equipo; **ERA** es el nombre del robot.
 
-## 02 / Explore the project
+## 02 / Qué vas a encontrar
 
-| Section | What you will find |
+| Sección | Contenido |
 |---|---|
-| [Code](Code/README.md) | Original SPIKE projects, four update groups, numbered versions, screenshots and readable source exports |
-| [Electronics](Electronics/README.md) | Hub connections, a source-derived connection diagram and the distinction between recent and historical port assignments |
-| [Mechanics](Mechanics/README.md) | Six vehicle views, assembly details, chassis evolution and model-file status |
-| [General Photos](General%20Photos/README.md) | Team photographs, event photographs and workshop documentation |
-| [Docs](Docs/README.md) | Corrected original notebook, English journal, evidence, source inventory and WRO documentation references |
-| [video](video/video.md) | Original practice clips and the status of the required challenge demonstration links |
-| [archive](archive/README.md) | The repository's earlier notebook, README and program, plus additional original source material |
+| [Programación](Code/README.md) | Capturas de los programas organizadas por actualización y versión |
+| [Electrónica](Electronics/README.md) | Conexiones del hub, sensores, motores y diagrama de referencia |
+| [Mecánica](Mechanics/README.md) | Las seis vistas del carro, detalles de los mecanismos y cambios de estructura |
+| [Fotos](General%20Photos/README.md) | El equipo, los eventos y el trabajo en el taller |
+| [Documentación](Docs/README.md) | La libreta corregida, el PDF y las referencias de WRO |
+| [Videos](video/video.md) | Los cinco clips originales, sus miniaturas y duración |
+| [Archivo histórico](archive/README.md) | La documentación anterior y material adicional del proyecto |
 
 ```text
 WRO-Competition-Practice/
-├── Code/
+├── Code/                    Capturas de programación
 │   └── SPIKE Prime/
-│       ├── ACTU-01-April/
-│       ├── ACTU-02-May/
-│       ├── ACTU-03-August/
-│       └── ACTU-04-September/
-├── Electronics/
-│   └── Diagrams/
-├── General Photos/
-│   ├── Team/
-│   ├── Events/
-│   └── Development/
-├── Mechanics/
-│   ├── Vehicle Photos/
-│   ├── Development/
-│   └── 3D Models/
-├── Docs/
-├── video/
-│   └── clips/
-├── archive/
-└── tools/
+│       ├── ACTU-01-April/     Abril
+│       ├── ACTU-02-May/       Mayo
+│       ├── ACTU-03-August/    Agosto
+│       └── ACTU-04-September/ Septiembre
+├── Electronics/             Electrónica y conexiones
+├── General Photos/          Fotos del equipo y eventos
+├── Mechanics/               Mecánica y fotos del carro
+├── Docs/                    Libreta y documentación
+├── video/                   Clips de práctica
+├── archive/                 Material histórico
+└── tools/                   Herramientas de verificación
 ```
 
-The folder names resemble our development workflow: code updates, electronics, general photographs and mechanics. Their contents map to the official WRO repository template without maintaining duplicate copies of the same photographs. [The documentation guide](Docs/WRO-Documentation.md) provides the template cross-reference.
+Los nombres de las carpetas se mantienen para que los enlaces sean estables. Los títulos, las galerías y las explicaciones están en español. Las fotos repetidas en las carpetas originales se presentan una sola vez en la galería; el [inventario de archivos](Docs/import-manifest.json) conserva la relación con sus ubicaciones de origen.
 
-## 03 / Software and hardware architecture
+## 03 / Programación: las capturas
 
-The control programs run on the **LEGO SPIKE Prime hub**. Original `.llsp3` files are the editable and uploadable projects. Most supplied versions use LEGO Word Blocks. The August update also contains an actual Python project; its Python source is exported directly from the original file.
+Los programas de ERA se ejecutan en el **hub LEGO SPIKE Prime**. La mayoría de las versiones utilizan bloques de palabras de SPIKE. También contamos con un prototipo histórico en Python, presentado en las capturas de agosto.
 
-For Word Blocks, the repository includes the original block graph as `.blocks.json`, a `.blocks.md` text listing of the event stacks and procedures, and the supplied screenshots. These review exports allow a reader to inspect the source without installing the LEGO application. They are not a translation of the blocks into executable Python. Program behaviour is documented from the supplied source, and the original motor values and thresholds are preserved.
+Por decisión del equipo, **la sección de programación publica solamente las capturas**. Los proyectos editables y las exportaciones de código quedan en la PC. Las imágenes sirven para documentar el diseño de los programas; no son archivos que se puedan descargar al hub como un programa ejecutable.
 
-### Recent versions
+Las cuatro carpetas `ACTU` corresponden a los grupos de archivos que entregó el equipo: abril, mayo, agosto y septiembre. Algunas versiones se guardaron en octubre, aunque su carpeta de origen se llame septiembre. Por eso mostramos la numeración y las fechas de guardado como datos distintos.
 
-The team has chosen to present **all three recent numbered snapshots**, rather than label one as the definitive competition program. The original source folder is named September, but these files were saved on 2 October. Numbering and timestamps are shown separately so that the development history remains clear.
+### Las tres versiones recientes
 
-| Snapshot | Main distinction | Project | Source review |
-|---|---|---|---|
-| September #6 | Distance-triggered turns with yaw reset after the corner | [Open project](Code/SPIKE%20Prime/ACTU-04-September/Version-06/program.llsp3) | [Block listing](Code/SPIKE%20Prime/ACTU-04-September/Version-06/program.blocks.md) |
-| September #7 | `Count` coordinates turns and straight driving; lateral thresholds are 6/7 inches | [Open project](Code/SPIKE%20Prime/ACTU-04-September/Version-07/program.llsp3) | [Block listing](Code/SPIKE%20Prime/ACTU-04-September/Version-07/program.blocks.md) |
-| September #8 | `AJJHHJ` stores wrapped heading targets for successive 90° turns | [Open project](Code/SPIKE%20Prime/ACTU-04-September/Version-08/program.llsp3) | [Block listing](Code/SPIKE%20Prime/ACTU-04-September/Version-08/program.blocks.md) |
+Presentamos **#6, #7 y #8 juntas**, tal como decidió el equipo. Cada una tiene una forma distinta de manejar los giros o las correcciones de trayectoria.
 
-### Subsystem connections
+| Versión | Diferencia principal | Captura |
+|---|---|---|
+| Septiembre #6 | Giros activados por distancia y reinicio del yaw después de la esquina | [Ver imagen](Code/SPIKE%20Prime/ACTU-04-September/Version-06/code-01.png) |
+| Septiembre #7 | La variable `Count` coordina los giros y el avance; utiliza márgenes laterales de 6/7 pulgadas | [Ver imagen](Code/SPIKE%20Prime/ACTU-04-September/Version-07/code-01.png) |
+| Septiembre #8 | La variable `AJJHHJ` guarda referencias de orientación para giros sucesivos de 90° | [Ver imagen](Code/SPIKE%20Prime/ACTU-04-September/Version-08/code-01.png) |
 
-In these recent snapshots, **motor D** is the continuously running propulsion motor and **motor F** is the steering actuator. The programs read distance sensors on **A, C and E**, and use the hub's internal yaw sensor. The recent block source does not read a colour sensor. Colour-sensor development is documented in the earlier programs and notebook, and should not be mistaken for a colour-classification routine in every recent version.
+En [la galería de programación](Code/README.md) puedes ver las tres capturas completas y entrar a las versiones anteriores. Los nombres y las fechas originales de los proyectos quedan registrados en [el inventario de versiones](Docs/software-versions.json).
 
-| Component / port | Role visible in the recent source |
+## 04 / Cómo trabaja el sistema
+
+En las versiones recientes, el programa usa el **motor D para mover el carro** y el **motor F para la dirección**. Lee sensores de distancia en los puertos **A, C y E**, además de la orientación del hub mediante su sensor interno de yaw.
+
+| Componente | Función identificada en los programas recientes |
 |---|---|
-| SPIKE hub | Executes the event stacks and procedures; exposes the internal yaw reading |
-| D | Starts, stops and sets the propulsion motor speed |
-| F | Receives steering commands; its absolute position is used for centring |
-| A and E | Distance checks used by the main loop for lateral-clearance reactions |
-| C | Distance event used to initiate the corner-turn sequence |
-| Internal IMU | Heading measurement and correction |
+| Hub SPIKE Prime | Ejecuta los bloques y las rutinas; recibe las lecturas de los sensores |
+| Motor D | Avance, parada y ajuste de velocidad |
+| Motor F | Movimiento de la dirección y lectura de su posición |
+| Sensores A y E | Reacciones cuando el carro se acerca al límite lateral |
+| Sensor C | Evento de distancia utilizado para comenzar el giro de esquina |
+| Sensor interno de yaw | Referencia de orientación y corrección del rumbo |
 
-![Recent source-derived hub connections](Electronics/Diagrams/hub-connections.svg)
+![Conexiones de referencia del hub de ERA](Electronics/Diagrams/hub-connections.svg)
 
-The diagram describes connections referenced by the supplied software. It does not establish the exact physical orientation of each sensor or measured electrical consumption. Those details must be checked against the selected assembled vehicle. The August Python prototype uses different port assignments, which are listed in the software guide.
+Este diagrama se preparó a partir de los programas suministrados. Para trabajar con el carro, hay que comparar esas conexiones con el montaje que realmente se va a usar. Las versiones antiguas tienen asignaciones distintas; por ejemplo, el prototipo Python de agosto utiliza E/F para los motores, D para el sensor de color y C para distancia.
 
-### Control flow
+### Flujo general
 
 ```mermaid
 flowchart TD
-    A[Program-start event] --> B[Initialize heading and version-specific variables]
-    B --> C[Start propulsion motor D]
-    C --> D[Centre steering motor F]
-    D --> E[Main distance-reading loop]
-    E --> F{Lateral clearance below threshold?}
-    F -->|Yes| G[Steer F and wait for clearance]
-    G --> H[Steering and yaw procedures]
+    A[Inicio del programa] --> B[Preparar orientación y variables]
+    B --> C[Encender motor de avance D]
+    C --> D[Centrar dirección F]
+    D --> E[Revisar sensores de distancia]
+    E --> F{Se acerca al límite lateral?}
+    F -->|Sí| G[Ajustar dirección y esperar espacio]
+    G --> H[Revisar dirección y yaw]
     H --> E
     F -->|No| E
-    I[Distance event on C] --> J[Version-specific corner-turn sequence]
+    I[Evento de distancia en C] --> J[Realizar giro de esquina]
     J --> H
 ```
 
-The programs are structured as event stacks and named procedures rather than separate application modules. `Steering` centres motor F using its absolute-position reading. `yaw` applies heading corrections. `PAOA` is another supplied procedure, but it has no call from the main or C-event stacks in the three recent snapshots. This distinction matters when describing what the vehicle actually executes.
+Los bloques se organizan en eventos y rutinas con nombre. `Steering` centra el motor de dirección usando su posición absoluta, mientras que `yaw` aplica correcciones de orientación. La rutina `PAOA` también aparece definida, aunque en las versiones recientes no se llama desde los bloques principales de inicio o del evento en C.
 
-The source versions differ in how they handle a corner. Version #6 resets yaw after reaching a negative-angle window. Version #7 uses `Count` to avoid overlapping turn and straight-driving actions. Version #8 updates a heading reference using angle wrapping. Its source comment describes targets of −90°, −180°, +90° and 0°; the corresponding blocks are included in the readable listing. The [software guide](Code/README.md) explains these differences and the exact original thresholds.
+La versión #6 reinicia la orientación después de alcanzar el intervalo previsto para el giro. La #7 usa `Count` para coordinar las acciones y evitar que se interfieran. La #8 actualiza una referencia angular y contempla el cambio entre ángulos positivos y negativos al completar las esquinas.
 
-### Challenge strategy
+Las versiones recientes revisadas se enfocan en distancia y orientación. El trabajo con colores, obstáculos, dirección automática y estacionamiento aparece en la historia de desarrollo del equipo. La evidencia de una tarea completa debe corresponder al programa y al montaje utilizados en esa práctica.
 
-The notebook records free-running practice, obstacle experiments and parking-related work at the May event. Recent snapshots demonstrate distance-based navigation and yaw control. They do not, by themselves, establish a complete colour-aware obstacle challenge: passing a red pillar on its right, passing a green pillar on its left, completing three laps and parking require separate evidence from the selected program and a full autonomous run.
+## 05 / El carro y sus cambios
 
-The English journal preserves the team's own observations, including the damaged colour sensor, replacement sensors, work on automatic direction recognition and structural reinforcement. Reported observations are distinguished from verified source behaviour. No new lap times, success percentages, sensor measurements or competition results have been added.
+Nuestra idea inicial fue un carro de cuatro ruedas, compacto y cómodo para trabajar en él, inspirado en la distribución de un Fórmula 1. Durante abril utilizamos un prototipo de tres ruedas para facilitar las pruebas de sensores y programación. Las fotos posteriores muestran un montaje de cuatro ruedas.
 
-## 04 / Open, upload and reproduce
+La libreta registra cambios en la parte frontal para mejorar la lectura del sensor orientado hacia el piso, pruebas de calibración y trabajo posterior en los sensores, el eje trasero y los engranajes. A finales de septiembre y principios de octubre reforzamos la estructura con la intención de reducir vibraciones y mantener una trayectoria más estable.
 
-1. Install the official [LEGO Education SPIKE application](https://education.lego.com/en-us/downloads/spike-app/software/). Use the application and hub firmware version appropriate for the original project. The supplied files do not record a complete tested application/firmware version pair.
-2. Download or clone this repository and choose a project from the [software index](Code/README.md). Keep the project's screenshots, block listing and metadata with it.
-3. Open the `.llsp3` project in SPIKE. Word Blocks projects should remain Word Blocks; the August Python project is a historical Python variant. No desktop `pip install` or standalone Python build is needed to open a Word Blocks project.
-4. Compare the hub connections with the selected program. For the recent snapshots, check A/C/E for distance sensing, D for propulsion and F for steering. Centre the physical steering assembly and check that the motor's direction agrees with the selected build.
-5. Connect the hub by USB and download the program to the hub. The international rules specify **only slot one** for a SPIKE competition vehicle; check the actual hub slot rather than relying only on an exported zero-based `slotIndex`.
-6. During permitted practice time, check sensor readings, steering centring, turns and straight driving. Confirm how the selected version starts and stops. Keep the application disconnected and the vehicle fully autonomous during a judged run.
-7. Follow the event's prescribed power-on, waiting-state and start-button procedure. The supplied recent source starts motor D on the program-start event; a separate waiting-state/start-button implementation is not established by this source export.
+En [Mecánica](Mechanics/README.md) están las fotos de los mecanismos y las seis vistas: **frente, atrás, izquierda, derecha, arriba y abajo**. El equipo debe confirmar que ese conjunto de imágenes representa el montaje usado después de las últimas modificaciones.
 
-The photographs show the LEGO assembly and mechanism details, but complete dimensions, a measured gear ratio, a parts list and an electrical power budget were not supplied. The repository exposes the available evidence and documents these remaining reproducibility details in [the WRO documentation guide](Docs/WRO-Documentation.md).
+## 06 / Nuestra trayectoria
 
-## 05 / Engineering journey
-
-| Period | Milestone documented by the team |
+| Período | Trabajo registrado en la libreta |
 |---|---|
-| March–April | Robot handover, SPIKE research, compact redesign and experimental sensor testing |
-| Late April | Front-structure adjustments, colour-sensor calibration and navigation practice |
-| 1–3 May | Free-running preparation and participation in the WRO event; damaged colour-sensor limitations recorded |
-| August | Replacement sensors received; speed and turn-angle experiments resumed |
-| 5 September | Event feedback on using one program slot and bringing the documentation up to date |
-| 29–30 September | Sensor-placement planning, rear-axle/gearing work and structural reinforcement |
-| 1–2 October | Further reinforcement, motion-program adjustments for Ponce and the naming of ERA |
+| Marzo y abril | Entrega del robot, investigación de SPIKE, rediseño compacto y pruebas de sensores |
+| Finales de abril | Ajustes en la estructura frontal, calibración del sensor de color y prácticas de navegación |
+| 1–3 de mayo | Preparación para recorrido libre y participación en la competencia; dificultades con el sensor de color rayado |
+| Agosto | Recibimos sensores de repuesto y retomamos pruebas de velocidad y ángulos de giro |
+| 5 de septiembre | Retroalimentación sobre el uso de un solo espacio de programa y la documentación actualizada |
+| 29–30 de septiembre | Trabajo en la posición de los sensores, el eje trasero, los engranajes y el refuerzo de la estructura |
+| 1–2 de octubre | Nuevos ajustes de estructura y movimiento para la competencia en Ponce; nombramos al robot ERA |
 
-Read the [English engineering journal](Docs/Engineering-Journal.md) for the full account. The [corrected Spanish Word notebook](Docs/Historial-de-documentacion-corregido.docx) retains the supplied document's structure. The unedited source is preserved in `Docs/Originals/`; the repository's earlier notebook is retained in `archive/pre-refresh/`.
+La [libreta de ingeniería](Docs/Engineering-Journal.md) presenta los registros que ya escribió el equipo. La [copia corregida en Word](Docs/Historial-de-documentacion-corregido.docx) conserva su formato, y el [PDF](Docs/Engineering-Journal.pdf) facilita la lectura y la impresión.
 
-## 06 / Vehicle, team and demonstrations
+El documento original está guardado en `Docs/Originals/`. Los resultados y las observaciones publicados provienen de esa documentación: no añadimos tiempos de vuelta, porcentajes de éxito ni mediciones que el equipo no haya registrado.
 
-- **Six views:** [front, rear, left, right, top and bottom](Mechanics/Vehicle%20Photos/README.md).
-- **Build details:** [assembly and development photographs](Mechanics/README.md).
-- **Team and events:** [photo gallery](General%20Photos/README.md).
-- **Practice recordings:** [video index](video/video.md).
+## 07 / Fotos y videos
 
-The supplied videos are retained as original practice evidence. WRO's international documentation rules require **one YouTube link per challenge**, public or unlisted, showing at least **30 seconds of autonomous driving**. No YouTube URLs were included in the supplied files. The video index identifies the original clips and their durations so the team can choose or record the correct demonstrations.
+- **[Fotos del equipo y los eventos](General%20Photos/README.md):** nuestra participación y trabajo en las competencias.
+- **[Las seis vistas de ERA](Mechanics/Vehicle%20Photos/README.md):** el carro desde todos sus lados.
+- **[Detalles de construcción](Mechanics/README.md):** mecanismos, sensores y cambios del montaje.
+- **[Videos de práctica](video/video.md):** cinco clips originales, con miniaturas y duración.
 
-## 07 / Documentation standard and provenance
+Las fotos mantienen su contenido original, incluyendo las imágenes que ya tenían rostros cubiertos. Los nombres descriptivos y la organización ayudan a encontrar el material sin tener que descargarlo para verlo.
 
-This English README and the supporting English explanations are organised around the **2026 Future Engineers documentation rubric**: mobility and mechanical design; power and sensor architecture; software and obstacle strategy; systems thinking and engineering decisions; reproducibility and GitHub quality. The notebook's reported work is kept intact, with spelling corrections and an English presentation for review.
+Los videos se presentan como evidencia de práctica. Para la documentación internacional de WRO, se solicita un enlace de YouTube por reto, público o no listado, con por lo menos **30 segundos de conducción autónoma**. Esos enlaces todavía no venían en el material del equipo.
 
-The public repository already contains the team's original Git history. Files labelled April, May, August or September are **source groups**, not backdated Git commits. The imported project metadata records the original save timestamps. [The import manifest](Docs/import-manifest.json) maps each supplied asset to its repository path and SHA-256 hash, including duplicate source copies. This provides traceability without filling the gallery with repeated images.
+## 08 / Uso en el taller
 
-For international submission, the rules require at least three meaningful commits at the specified intervals, submission of the repository URL at least three weeks before the event, and public availability for at least twelve months afterwards. Whether the historical commits meet those deadlines depends on the actual event date; that date has not been supplied. See [WRO documentation requirements and evidence status](Docs/WRO-Documentation.md) for the details.
+1. Instala la [aplicación oficial de LEGO Education SPIKE](https://education.lego.com/en-us/downloads/spike-app/software/).
+2. Consulta las capturas para identificar la versión y abre el proyecto correspondiente que el equipo conserva **localmente**.
+3. Verifica los puertos, la posición de los sensores y el sentido de los motores antes de poner el carro en la pista.
+4. Conecta el hub por USB para descargar el programa local. Las capturas del repositorio no sustituyen ese archivo.
+5. Durante el período de práctica permitido, revisa el centrado de la dirección, las lecturas, los giros y el avance en línea recta.
+6. Para una ronda oficial, sigue el procedimiento de encendido, espera y botón de inicio indicado por el organizador. La regla internacional para SPIKE especifica el uso del espacio uno.
 
-### References
+Para reproducir exactamente el montaje también hacen falta sus dimensiones, masa, relación de engranajes, lista de piezas y datos de consumo. El repositorio presenta el material disponible y señala lo que aún necesita completar el equipo.
 
-- [WRO 2026 season and official documents](https://wro-association.org/competition/2026-season/)
-- [Future Engineers 2026 General & Game Rules, chapter 7 and appendix C](https://wro-association.org/wp-content/uploads/WRO-2026-Future-Engineers-Self-Driving-Cars-General-Rules.pdf)
-- [Future Engineers 2026 Documentation Rubric](https://wro-association.org/wp-content/uploads/WRO-2026-Future-Engineers-Documentation-Rubric.pdf)
-- [Official WRO questions and answers](https://wro-association.org/competition/questions-answers/)
-- [WRO engineering repository template](https://github.com/World-Robot-Olympiad-Association/wro2022-fe-template)
+## 09 / Documentación y referencias de WRO
+
+Organizamos la presentación alrededor de los cinco criterios de documentación de Future Engineers 2026: **movilidad y diseño mecánico; energía y sensores; programación y estrategia de obstáculos; decisiones de ingeniería; y reproducibilidad del proyecto**.
+
+La presentación actual está en español y publica capturas de los programas por petición del equipo. Los requisitos internacionales también incluyen documentación en inglés y el código de control. El [estado de esos requisitos](Docs/WRO-Documentation.md) queda documentado, junto con las referencias y los plazos. Para un evento en Puerto Rico, hay que confirmar las instrucciones del organizador local.
+
+- [Temporada WRO 2026](https://wro-association.org/competition/2026-season/)
+- [Reglas de Future Engineers 2026](https://wro-association.org/wp-content/uploads/WRO-2026-Future-Engineers-Self-Driving-Cars-General-Rules.pdf)
+- [Rúbrica de documentación](https://wro-association.org/wp-content/uploads/WRO-2026-Future-Engineers-Documentation-Rubric.pdf)
+- [Preguntas y respuestas oficiales](https://wro-association.org/competition/questions-answers/)
+- [Plantilla oficial del repositorio](https://github.com/World-Robot-Olympiad-Association/wro2022-fe-template)
 
 ---
 
-**Para el equipo:** la libreta original, su copia corregida y la guía breve en español están en [Docs](Docs/README.md). Las versiones recientes se muestran juntas por decisión del equipo. La documentación principal se presenta en inglés para ajustarse al requisito de la final internacional.
-
 <div align="center">
 
-**ERA · Build. Test. Refine.**<br>
-Los 3 Mosqueteros · Puerto Rico · 2026
+**ERA · Construir. Probar. Mejorar.**<br>
+Student Engineers · Puerto Rico · 2026
 
 </div>

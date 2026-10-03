@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="690" viewBox="0 0 1200 690" role="img" aria-labelledby="title desc">
-  <title id="title">ERA recent-program hub connections</title>
-  <desc id="desc">Source-derived diagram: SPIKE hub battery and internal yaw sensor; distance sensors on A, C and E; propulsion motor D and steering motor F. Physical sensor orientation and electrical measurements require team confirmation.</desc>
+  <title id="title">ERA: conexiones del hub en los programas recientes</title>
+  <desc id="desc">Diagrama basado en los programas: batería y sensor de yaw del hub; sensores de distancia en A, C y E; motor de avance D y motor de dirección F.</desc>
   <rect width="1200" height="690" rx="16" fill="#0b1728"/>
   <g font-family="Segoe UI,Arial,sans-serif">
-    <text x="48" y="56" fill="#f8fafc" font-size="27" font-weight="700">ERA / HUB CONNECTIONS</text>
-    <text x="48" y="87" fill="#94a3b8" font-size="17">Source-derived · September snapshots #6, #7 and #8</text>
+    <text x="48" y="56" fill="#f8fafc" font-size="27" font-weight="700">ERA / CONEXIONES DEL HUB</text>
+    <text x="48" y="87" fill="#94a3b8" font-size="17">Referencia de los programas · Septiembre #6, #7 y #8</text>
     <g fill="none" stroke-width="3">
       <path d="M320 198H444" stroke="#22d3ee"/><path d="M320 308H444" stroke="#22d3ee"/><path d="M320 418H444" stroke="#22d3ee"/>
       <path d="M754 247H865" stroke="#e879f9"/><path d="M754 395H865" stroke="#e879f9"/>
@@ -14,21 +14,21 @@
       <rect x="48" y="151" width="272" height="94" rx="12"/><rect x="48" y="261" width="272" height="94" rx="12"/><rect x="48" y="371" width="272" height="94" rx="12"/>
     </g>
     <g fill="#67e8f9" font-size="19" font-weight="700">
-      <text x="70" y="187">A / DISTANCE SENSOR</text><text x="70" y="297">C / DISTANCE SENSOR</text><text x="70" y="407">E / DISTANCE SENSOR</text>
+      <text x="70" y="187">A / SENSOR DE DISTANCIA</text><text x="70" y="297">C / SENSOR DE DISTANCIA</text><text x="70" y="407">E / SENSOR DE DISTANCIA</text>
     </g>
-    <g fill="#cbd5e1" font-size="16"><text x="70" y="218">Main-loop clearance checks</text><text x="70" y="328">Corner-turn event</text><text x="70" y="438">Main-loop clearance checks</text></g>
+    <g fill="#cbd5e1" font-size="16"><text x="70" y="218">Revisión del espacio lateral</text><text x="70" y="328">Evento de giro de esquina</text><text x="70" y="438">Revisión del espacio lateral</text></g>
     <rect x="444" y="145" width="310" height="335" rx="20" fill="#1e293b" stroke="#64748b" stroke-width="2"/>
     <text x="599" y="210" text-anchor="middle" fill="#f8fafc" font-size="25" font-weight="700">LEGO SPIKE PRIME</text>
-    <text x="599" y="246" text-anchor="middle" fill="#cbd5e1" font-size="19">Program execution</text>
+    <text x="599" y="246" text-anchor="middle" fill="#cbd5e1" font-size="19">Ejecución del programa</text>
     <rect x="478" y="284" width="242" height="109" rx="12" fill="#0b1728"/>
-    <text x="599" y="322" text-anchor="middle" fill="#67e8f9" font-size="20">Internal yaw sensor</text>
-    <text x="599" y="351" text-anchor="middle" fill="#94a3b8" font-size="16">Heading feedback</text>
-    <text x="599" y="430" text-anchor="middle" fill="#94a3b8" font-size="16">Wired hub ports</text>
+    <text x="599" y="322" text-anchor="middle" fill="#67e8f9" font-size="20">Sensor interno de yaw</text>
+    <text x="599" y="351" text-anchor="middle" fill="#94a3b8" font-size="16">Referencia de orientación</text>
+    <text x="599" y="430" text-anchor="middle" fill="#94a3b8" font-size="16">Puertos conectados por cable</text>
     <g fill="#392742" stroke="#e879f9" stroke-width="1.5"><rect x="865" y="200" width="287" height="94" rx="12"/><rect x="865" y="348" width="287" height="94" rx="12"/></g>
-    <text x="888" y="237" fill="#f0abfc" font-size="19" font-weight="700">D / PROPULSION MOTOR</text><text x="888" y="268" fill="#cbd5e1" font-size="16">Start · stop · speed</text>
-    <text x="888" y="385" fill="#f0abfc" font-size="19" font-weight="700">F / STEERING MOTOR</text><text x="888" y="416" fill="#cbd5e1" font-size="16">Turns · absolute position</text>
+    <text x="888" y="237" fill="#f0abfc" font-size="19" font-weight="700">D / MOTOR DE AVANCE</text><text x="888" y="268" fill="#cbd5e1" font-size="16">Inicio · parada · velocidad</text>
+    <text x="888" y="385" fill="#f0abfc" font-size="19" font-weight="700">F / MOTOR DE DIRECCIÓN</text><text x="888" y="416" fill="#cbd5e1" font-size="16">Giros · posición absoluta</text>
     <rect x="444" y="540" width="310" height="68" rx="12" fill="#39311d" stroke="#facc15" stroke-width="1.5"/>
-    <text x="599" y="581" text-anchor="middle" fill="#fde68a" font-size="20" font-weight="700">SPIKE hub battery</text>
-    <text x="48" y="654" fill="#94a3b8" font-size="16">Logical connections from original code. Sensor orientation, current draw and selected build remain to be confirmed.</text>
+    <text x="599" y="581" text-anchor="middle" fill="#fde68a" font-size="20" font-weight="700">Batería del hub SPIKE</text>
+    <text x="48" y="654" fill="#94a3b8" font-size="16">Conexiones identificadas en los programas. Confirmar la orientación de sensores y el montaje utilizado.</text>
   </g>
 </svg>
