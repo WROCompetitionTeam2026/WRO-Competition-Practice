@@ -1,0 +1,21 @@
+# Local editor / operating-system files
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+~WRL*.tmp
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
+
+# Credentials and machine-local configuration
+.env
+.env.*
+*.pem
+*.key
+id_ed25519*
+
+# Local verification outputs
+verification-report.json

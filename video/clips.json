@@ -1,0 +1,27 @@
+[
+  {
+    "file": "video/clips/clip-01.mp4",
+    "source": "Imagenes/WhatsApp Video 2026-10-01 at 7.42.24 PM.mp4",
+    "duration_seconds": 37.37
+  },
+  {
+    "file": "video/clips/clip-02.mp4",
+    "source": "Imagenes/WhatsApp Video 2026-10-02 at 10.01.09 AM (1).mp4",
+    "duration_seconds": 13.7
+  },
+  {
+    "file": "video/clips/clip-03.mp4",
+    "source": "Imagenes/WhatsApp Video 2026-10-02 at 10.01.09 AM (2).mp4",
+    "duration_seconds": 11.43
+  },
+  {
+    "file": "video/clips/clip-04.mp4",
+    "source": "Imagenes/WhatsApp Video 2026-10-02 at 10.01.09 AM.mp4",
+    "duration_seconds": 38.47
+  },
+  {
+    "file": "video/clips/clip-05.mp4",
+    "source": "Imagenes/WhatsApp Video 2026-10-02 at 10.01.10 AM.mp4",
+    "duration_seconds": 15.8
+  }
+]

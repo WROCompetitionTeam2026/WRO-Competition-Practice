@@ -1,0 +1,17 @@
+*.md text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.svg text eol=lf
+*.yml text eol=lf
+*.llsp3 binary
+*.sb3 binary
+*.docx binary
+*.jpg binary
+*.png binary
+*.mp4 binary
+*.pdf binary
+
+# Preserve whitespace in the archived README as historical source material.
+archive/pre-refresh/README-original.md whitespace=-trailing-space
